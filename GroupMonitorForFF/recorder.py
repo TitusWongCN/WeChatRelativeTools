@@ -59,6 +59,10 @@ def group_file_reply(msg):
         record(file, content)
 
 
-if __name__ == '__main__':
-    itchat.auto_login(hotReload=True)
+def run():
+    itchat.auto_login(hotReload=True, exitCallback=run)
     itchat.run(debug=True)
+
+
+if __name__ == '__main__':
+    run()
