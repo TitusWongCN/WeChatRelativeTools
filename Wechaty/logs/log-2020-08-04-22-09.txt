@@ -1,0 +1,780 @@
+2020-08-04 22:09:12,136 - Wechaty - INFO - on() listen event <scan> with <<function main.<locals>.<lambda> at 0x000002B9D8DC4598>>
+2020-08-04 22:09:12,137 - Wechaty - DEBUG - emit() event <['scan', '<function main.<locals>.<lambda> at 0x000002B9D8DC4598>']> <{}>
+2020-08-04 22:09:12,137 - Wechaty - INFO - on() listen event <login> with <<function main.<locals>.<lambda> at 0x000002B9D8DC46A8>>
+2020-08-04 22:09:12,137 - Wechaty - DEBUG - emit() event <['login', '<function main.<locals>.<lambda> at 0x000002B9D8DC46A8>']> <{}>
+2020-08-04 22:09:12,138 - Wechaty - INFO - on() listen event <message> with <<function on_message at 0x000002B9D8184EA0>>
+2020-08-04 22:09:12,138 - Wechaty - DEBUG - emit() event <['message', '<function on_message at 0x000002B9D8184EA0>']> <{}>
+2020-08-04 22:09:12,229 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_hostie.puppet.HostiePuppet object at 0x000002B9D8D750B8>>
+2020-08-04 22:09:12,230 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2020-08-04 22:09:12,230 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2020-08-04 22:09:12,230 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2020-08-04 22:09:12,230 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2020-08-04 22:09:12,230 - Wechaty - INFO - receive <reset> event <%s>
+2020-08-04 22:09:12,230 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2020-08-04 22:09:12,231 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2020-08-04 22:09:12,231 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2020-08-04 22:09:12,231 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2020-08-04 22:09:12,231 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2020-08-04 22:09:12,231 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2020-08-04 22:09:12,232 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2020-08-04 22:09:12,232 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2020-08-04 22:09:12,232 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2020-08-04 22:09:12,232 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2020-08-04 22:09:12,232 - Wechaty - INFO - starting puppet ...
+2020-08-04 22:09:12,232 - HostiePuppet - INFO - init puppet
+2020-08-04 22:09:12,233 - HostiePuppet - INFO - There is no endpoint in cache, trying to fetch endpoint with token.
+2020-08-04 22:09:15,798 - HostiePuppet - DEBUG - get puppet ip address : <{'ip': '52.82.110.129', 'port': 15106}>
+2020-08-04 22:09:15,801 - HostiePuppet - INFO - starting the puppet ...
+2020-08-04 22:09:15,964 - HostiePuppet - INFO - puppet has started ...
+2020-08-04 22:09:15,964 - HostiePuppet - INFO - listening the event from the puppet ...
+2020-08-04 22:09:16,018 - HostiePuppet - DEBUG - receive login info <{'contactId': 'wxid_ducokm8pteat22'}>
+2020-08-04 22:09:16,018 - Wechaty - INFO - receive <login> event <EventLoginPayload(contact_id='wxid_ducokm8pteat22')>
+2020-08-04 22:09:16,075 - Contact - INFO - load contact <Contact <wxid_ducokm8pteat22> <MyGhost__>>
+2020-08-04 22:09:16,075 - Wechaty - DEBUG - emit() event <['Contact <wxid_ducokm8pteat22> <MyGhost__>']> <{}>
+2020-08-04 22:09:16,075 - wechaty.plugin - INFO - init the plugins ...
+2020-08-04 22:09:18,489 - HostiePuppet - DEBUG - receive message info <{'messageId': '3241830664545916444'}>
+2020-08-04 22:09:18,490 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='3241830664545916444', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2020-08-04 22:09:18,490 - Message - DEBUG - Message ready <<3241830664545916444> not ready>
+2020-08-04 22:09:18,633 - Contact - INFO - load contact <Contact <wzhwno1> <Titus.Wong>>
+2020-08-04 22:09:18,772 - Contact - INFO - load contact <Contact <wxid_jrnjoldb721q22> <Robot>>
+2020-08-04 22:09:18,825 - Contact - INFO - load contact <Contact <wxid_kfqsq4e8rqn721> <Titus.Wong>>
+2020-08-04 22:09:18,825 - Wechaty - INFO - receive message <room <Room <18887123951@chatroom - 量化动态播报>>, talker Contact <wzhwno1> <Titus.Wong>, say to contact <Contact <>>, #ding>
+2020-08-04 22:09:18,825 - Wechaty - DEBUG - emit() event <['room <Room <18887123951@chatroom - 量化动态播报>>, talker Contact <wzhwno1> <Titus.Wong>, say to contact <Contact <>>, #ding']> <{}>
+2020-08-04 22:09:18,826 - Room - INFO - Room say <dong, None>
+2020-08-04 22:09:18,999 - Message - DEBUG - Message ready <<2083391444303093588> not ready>
+2020-08-04 22:09:19,004 - HostiePuppet - DEBUG - receive message info <{'messageId': '2083391444303093588'}>
+2020-08-04 22:09:19,004 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='2083391444303093588', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2020-08-04 22:09:19,004 - Message - DEBUG - Message ready <<2083391444303093588> not ready>
+2020-08-04 22:09:19,053 - Contact - INFO - find() <<class 'wechaty.wechaty.Contact'>, wzhw_heku>
+2020-08-04 22:09:19,054 - Contact - INFO - find_all() <<class 'wechaty.wechaty.Contact'>, wzhw_heku>
+2020-08-04 22:09:19,057 - Wechaty - INFO - receive message <room <Room <18887123951@chatroom - 量化动态播报>>, talker Contact <wxid_ducokm8pteat22> <MyGhost__>, say to contact <Contact <>>, dong>
+2020-08-04 22:09:19,057 - Wechaty - DEBUG - emit() event <['room <Room <18887123951@chatroom - 量化动态播报>>, talker Contact <wxid_ducokm8pteat22> <MyGhost__>, say to contact <Contact <>>, dong']> <{}>
+2020-08-04 22:09:20,997 - Contact - INFO - load contact <Contact <BJOnFire> <JG>>
+2020-08-04 22:09:21,003 - Contact - INFO - load contact <Contact <Evanwu2011> <NG>>
+2020-08-04 22:09:21,004 - Contact - INFO - load contact <Contact <GLM1943258508> <果乐>>
+2020-08-04 22:09:21,005 - Contact - INFO - load contact <Contact <GX_123> <Future52>>
+2020-08-04 22:09:21,006 - Contact - INFO - load contact <Contact <Gracian> <Gracian>>
+2020-08-04 22:09:21,007 - Contact - INFO - load contact <Contact <Greatest_Ever> <废柴MADAO>>
+2020-08-04 22:09:21,008 - Contact - INFO - load contact <Contact <H409766147X12J04> < Enchanter>>
+2020-08-04 22:09:21,009 - Contact - INFO - load contact <Contact <HighSpeedSpace> <汤姆>>
+2020-08-04 22:09:21,010 - Contact - INFO - load contact <Contact <Jason_300> <Jason>>
+2020-08-04 22:09:21,011 - Contact - INFO - load contact <Contact <LonelyWarrior1988> <土拨鼠>>
+2020-08-04 22:09:21,011 - Contact - INFO - load contact <Contact <Lucifer_N> <Nolan>>
+2020-08-04 22:09:21,012 - Contact - INFO - load contact <Contact <MG1393133944> <阿祝>>
+2020-08-04 22:09:21,013 - Contact - INFO - load contact <Contact <Mr-weirun> <R.>>
+2020-08-04 22:09:21,014 - Contact - INFO - load contact <Contact <NBA0002012> <ouou>>
+2020-08-04 22:09:21,015 - Contact - INFO - load contact <Contact <Nickey1314> <Nickey>>
+2020-08-04 22:09:21,015 - Contact - INFO - load contact <Contact <Paraself2010> <Yves Wang>>
+2020-08-04 22:09:21,017 - Contact - INFO - load contact <Contact <Q1435255141> <阿杰>>
+2020-08-04 22:09:21,017 - Contact - INFO - load contact <Contact <Soul001001> <苏畅>>
+2020-08-04 22:09:21,018 - Contact - INFO - load contact <Contact <V343461392> <国松>>
+2020-08-04 22:09:21,019 - Contact - INFO - load contact <Contact <Vvvsmallbo> <李o_O>>
+2020-08-04 22:09:21,020 - Contact - INFO - load contact <Contact <Walky002> <Walky>>
+2020-08-04 22:09:21,021 - Contact - INFO - load contact <Contact <YL54678421> <无名>>
+2020-08-04 22:09:21,025 - Contact - INFO - load contact <Contact <Zaxing123> <张兴>>
+2020-08-04 22:09:21,026 - Contact - INFO - load contact <Contact <a-15963254> <ALong>>
+2020-08-04 22:09:21,027 - Contact - INFO - load contact <Contact <a32647883> <Li>>
+2020-08-04 22:09:21,028 - Contact - INFO - load contact <Contact <a34001960> <王岱>>
+2020-08-04 22:09:21,031 - Contact - INFO - load contact <Contact <a714893270> <三未>>
+2020-08-04 22:09:21,031 - Contact - INFO - load contact <Contact <aiyalala> <睡不醒>>
+2020-08-04 22:09:21,032 - Contact - INFO - load contact <Contact <alexYYY> <alex>>
+2020-08-04 22:09:21,033 - Contact - INFO - load contact <Contact <alexec> <alex>>
+2020-08-04 22:09:21,034 - Contact - INFO - load contact <Contact <andy_lijun> <Andy_LIJUN>>
+2020-08-04 22:09:21,035 - Contact - INFO - load contact <Contact <askfuture> <龙少>>
+2020-08-04 22:09:21,036 - Contact - INFO - load contact <Contact <asun_bigholy> <asun>>
+2020-08-04 22:09:21,036 - Contact - INFO - load contact <Contact <babafall> <冯润全>>
+2020-08-04 22:09:21,037 - Contact - INFO - load contact <Contact <bagededipan> <网球王子酷酷>>
+2020-08-04 22:09:21,038 - Contact - INFO - load contact <Contact <banny560008> <止水>>
+2020-08-04 22:09:21,039 - Contact - INFO - load contact <Contact <baoquanmotto> <MrBaoquan>>
+2020-08-04 22:09:21,040 - Contact - INFO - load contact <Contact <bergkamps> <若识>>
+2020-08-04 22:09:21,041 - Contact - INFO - load contact <Contact <blues-wang> <斯道>>
+2020-08-04 22:09:21,042 - Contact - INFO - load contact <Contact <bluesky_still> <天空蔚蓝>>
+2020-08-04 22:09:21,042 - Contact - INFO - load contact <Contact <borisbao> <回车键>>
+2020-08-04 22:09:21,043 - Contact - INFO - load contact <Contact <caicaixs> <CAiCai>>
+2020-08-04 22:09:21,044 - Contact - INFO - load contact <Contact <caomushen315> <那时花开>>
+2020-08-04 22:09:21,045 - Contact - INFO - load contact <Contact <carlxia> <夏之晟>>
+2020-08-04 22:09:21,046 - Contact - INFO - load contact <Contact <ccyhxc> <myq>>
+2020-08-04 22:09:21,047 - Contact - INFO - load contact <Contact <cengzhi246832> <曾志>>
+2020-08-04 22:09:21,047 - Contact - INFO - load contact <Contact <chaoshuyang> <晁舒杨>>
+2020-08-04 22:09:21,049 - Contact - INFO - load contact <Contact <chengaopan0909> <高攀>>
+2020-08-04 22:09:21,049 - Contact - INFO - load contact <Contact <chenyao735122991> <陈尧>>
+2020-08-04 22:09:21,050 - Contact - INFO - load contact <Contact <chenzqcn> <Chen>>
+2020-08-04 22:09:21,051 - Contact - INFO - load contact <Contact <chguofeng> <Guofeng>>
+2020-08-04 22:09:21,052 - Contact - INFO - load contact <Contact <china-ngh> <风云>>
+2020-08-04 22:09:21,053 - Contact - INFO - load contact <Contact <cissy930426> <瑶鑫Cecilia>>
+2020-08-04 22:09:21,054 - Contact - INFO - load contact <Contact <cosmicvision> <日月同辉@智能视觉>>
+2020-08-04 22:09:21,054 - Contact - INFO - load contact <Contact <cyhtdawh> <Yao、He>>
+2020-08-04 22:09:21,055 - Contact - INFO - load contact <Contact <cz858501063> <飓风儿师姐>>
+2020-08-04 22:09:21,056 - Contact - INFO - load contact <Contact <daredevilcho> <Capharnaüm>>
+2020-08-04 22:09:21,057 - Contact - INFO - load contact <Contact <david170113044> <埚牛>>
+2020-08-04 22:09:21,058 - Contact - INFO - load contact <Contact <diaozxin> <犀利豆>>
+2020-08-04 22:09:21,059 - Contact - INFO - load contact <Contact <djf920516> <wind>>
+2020-08-04 22:09:21,059 - Contact - INFO - load contact <Contact <duling2768> <杜玲>>
+2020-08-04 22:09:21,060 - Contact - INFO - load contact <Contact <dupeng19900418> <杜鹏>>
+2020-08-04 22:09:21,061 - Contact - INFO - load contact <Contact <dwxd2007> <紫玉>>
+2020-08-04 22:09:21,062 - Contact - INFO - load contact <Contact <ekinchen_wei> <太阳公公>>
+2020-08-04 22:09:21,063 - Contact - INFO - load contact <Contact <eric1170316249> <ERIC>>
+2020-08-04 22:09:21,063 - Contact - INFO - load contact <Contact <eternityi> <wxid_9bzid47uf5zd27>>
+2020-08-04 22:09:21,064 - Contact - INFO - load contact <Contact <ethan_likailin> <开林1>>
+2020-08-04 22:09:21,065 - Contact - INFO - load contact <Contact <fengbs600220> <deepbrainfeng>>
+2020-08-04 22:09:21,066 - Contact - INFO - load contact <Contact <fenglinxiran> <枫林夕染>>
+2020-08-04 22:09:21,066 - Contact - INFO - load contact <Contact <feoniy> <jifengbo>>
+2020-08-04 22:09:21,067 - Contact - INFO - load contact <Contact <filehelper> <文件传输助手>>
+2020-08-04 22:09:21,068 - Contact - INFO - load contact <Contact <findbugs> <无尽空虚>>
+2020-08-04 22:09:21,069 - Contact - INFO - load contact <Contact <for_yf> <Y.found>>
+2020-08-04 22:09:21,070 - Contact - INFO - load contact <Contact <freefly0828> <林>>
+2020-08-04 22:09:21,073 - Contact - INFO - load contact <Contact <frenet79> <宋敦江-中科院>>
+2020-08-04 22:09:21,074 - Contact - INFO - load contact <Contact <fx_1799> <至金>>
+2020-08-04 22:09:21,074 - Contact - INFO - load contact <Contact <gctommy> <Tommy>>
+2020-08-04 22:09:21,075 - Contact - INFO - load contact <Contact <gh_c16eebc29c1d> <BotSentry>>
+2020-08-04 22:09:21,076 - Contact - INFO - load contact <Contact <gowebs> <锋芒>>
+2020-08-04 22:09:21,077 - Contact - INFO - load contact <Contact <guoguo48484848> <郭赞华@惠商城>>
+2020-08-04 22:09:21,078 - Contact - INFO - load contact <Contact <gyc874746615> <Vitro>>
+2020-08-04 22:09:21,078 - Contact - INFO - load contact <Contact <hanxiaoluoxue> <树叶>>
+2020-08-04 22:09:21,079 - Contact - INFO - load contact <Contact <harly4444> <贰罐哈利>>
+2020-08-04 22:09:21,080 - Contact - INFO - load contact <Contact <hehe010138> <Dummi>>
+2020-08-04 22:09:21,081 - Contact - INFO - load contact <Contact <heweili1984> <何伟立>>
+2020-08-04 22:09:21,082 - Contact - INFO - load contact <Contact <hhhhhppppp> <15621585100>>
+2020-08-04 22:09:21,083 - Contact - INFO - load contact <Contact <himxg001> <AI>>
+2020-08-04 22:09:21,084 - Contact - INFO - load contact <Contact <hismilesue> <Su>>
+2020-08-04 22:09:21,084 - Contact - INFO - load contact <Contact <hj1021846662> <郝进>>
+2020-08-04 22:09:21,085 - Contact - INFO - load contact <Contact <hss-sbb> <不 二>>
+2020-08-04 22:09:21,086 - Contact - INFO - load contact <Contact <hua_sheng18> <蓝铅笔>>
+2020-08-04 22:09:21,087 - Contact - INFO - load contact <Contact <huangkun_1988> <习惯丶>>
+2020-08-04 22:09:21,088 - Contact - INFO - load contact <Contact <huangwenchao1987> <呆滞的慢板>>
+2020-08-04 22:09:21,088 - Contact - INFO - load contact <Contact <huhupaozhenyoucai> <张健>>
+2020-08-04 22:09:21,089 - Contact - INFO - load contact <Contact <hunter8killer> <英雄好漢>>
+2020-08-04 22:09:21,094 - Contact - INFO - load contact <Contact <i5800me> <程路>>
+2020-08-04 22:09:21,095 - Contact - INFO - load contact <Contact <iwiilbeback> <如风中龅牙>>
+2020-08-04 22:09:21,096 - Contact - INFO - load contact <Contact <jack2757> <啸宇>>
+2020-08-04 22:09:21,097 - Contact - INFO - load contact <Contact <janson19832012> <Janson>>
+2020-08-04 22:09:21,098 - Contact - INFO - load contact <Contact <jemmun> <刘文>>
+2020-08-04 22:09:21,098 - Contact - INFO - load contact <Contact <jerychang> <张凤强>>
+2020-08-04 22:09:21,099 - Contact - INFO - load contact <Contact <jh0558520> <等风来>>
+2020-08-04 22:09:21,100 - Contact - INFO - load contact <Contact <jianguang_yi> <Jim>>
+2020-08-04 22:09:21,101 - Contact - INFO - load contact <Contact <jimmy88129> <小飞龙仔>>
+2020-08-04 22:09:21,102 - Contact - INFO - load contact <Contact <jk190766630> <梦中斩桃花>>
+2020-08-04 22:09:21,102 - Contact - INFO - load contact <Contact <jueduizone> <ZzZzz...>>
+2020-08-04 22:09:21,103 - Contact - INFO - load contact <Contact <junewen2008> <cooljunewen>>
+2020-08-04 22:09:21,104 - Contact - INFO - load contact <Contact <jxkk1153> <一零>>
+2020-08-04 22:09:21,105 - Contact - INFO - load contact <Contact <kevin19861101> <枫叶小虫>>
+2020-08-04 22:09:21,108 - Contact - INFO - load contact <Contact <kkkwill> <魏雷雷>>
+2020-08-04 22:09:21,109 - Contact - INFO - load contact <Contact <langzi405819> <东方河图>>
+2020-08-04 22:09:21,110 - Contact - INFO - load contact <Contact <leibazhanshi> <fenciu>>
+2020-08-04 22:09:21,111 - Contact - INFO - load contact <Contact <leipengaa> <Ray>>
+2020-08-04 22:09:21,112 - Contact - INFO - load contact <Contact <lemonhall> <余柠>>
+2020-08-04 22:09:21,113 - Contact - INFO - load contact <Contact <lengyuezhongdelove> <猫不会笑>>
+2020-08-04 22:09:21,114 - Contact - INFO - load contact <Contact <less201101> <你的名字。>>
+2020-08-04 22:09:21,115 - Contact - INFO - load contact <Contact <liang15036112852> <一坨小哥>>
+2020-08-04 22:09:21,115 - Contact - INFO - load contact <Contact <lijibiao> <李继标>>
+2020-08-04 22:09:21,116 - Contact - INFO - load contact <Contact <lin52013141799> <Accelerator、>>
+2020-08-04 22:09:21,117 - Contact - INFO - load contact <Contact <lishengming> <李晟铭>>
+2020-08-04 22:09:21,118 - Contact - INFO - load contact <Contact <liujialing053905> <巨蟹>>
+2020-08-04 22:09:21,118 - Contact - INFO - load contact <Contact <liyan722188> <木兰香>>
+2020-08-04 22:09:21,119 - Contact - INFO - load contact <Contact <lovelifeU1314> <问>>
+2020-08-04 22:09:21,120 - Contact - INFO - load contact <Contact <luffy0520> <杰>>
+2020-08-04 22:09:21,121 - Contact - INFO - load contact <Contact <luo-li> <白夜>>
+2020-08-04 22:09:21,122 - Contact - INFO - load contact <Contact <luwei_1280380446> <瘦瘦瘦>>
+2020-08-04 22:09:21,123 - Contact - INFO - load contact <Contact <lxaptx375020612> <Kylin>>
+2020-08-04 22:09:21,125 - Contact - INFO - load contact <Contact <manze_wangdong> <Eric>>
+2020-08-04 22:09:21,126 - Contact - INFO - load contact <Contact <maximus0000> <唐皓颖>>
+2020-08-04 22:09:21,127 - Contact - INFO - load contact <Contact <millionfor> <圈圈>>
+2020-08-04 22:09:21,128 - Contact - INFO - load contact <Contact <moxibingdao> <Amos>>
+2020-08-04 22:09:21,129 - Contact - INFO - load contact <Contact <my844851985> <西乡-奥利奥>>
+2020-08-04 22:09:21,129 - Contact - INFO - load contact <Contact <myphysics800> <汪涛涛涛涛>>
+2020-08-04 22:09:21,130 - Contact - INFO - load contact <Contact <niexing123> <聂星>>
+2020-08-04 22:09:21,131 - Contact - INFO - load contact <Contact <ohmyharry> <氢氧化醋>>
+2020-08-04 22:09:21,134 - Contact - INFO - load contact <Contact <pipenix> <Alex.Di>>
+2020-08-04 22:09:21,137 - Contact - INFO - load contact <Contact <q1215850394> <cai lei>>
+2020-08-04 22:09:21,138 - Contact - INFO - load contact <Contact <q17672268> <邱恒甲>>
+2020-08-04 22:09:21,139 - Contact - INFO - load contact <Contact <q458373250> <逆流时光>>
+2020-08-04 22:09:21,140 - Contact - INFO - load contact <Contact <qaz201212> <Y>>
+2020-08-04 22:09:21,141 - Contact - INFO - load contact <Contact <qingxibansheng477038> <Mrtsan>>
+2020-08-04 22:09:21,142 - Contact - INFO - load contact <Contact <qq26048067> <sz>>
+2020-08-04 22:09:21,142 - Contact - INFO - load contact <Contact <qq512436430> <李佳芮>>
+2020-08-04 22:09:21,144 - Contact - INFO - load contact <Contact <qq513881503> <Halton>>
+2020-08-04 22:09:21,145 - Contact - INFO - load contact <Contact <qq645958046> <等一等>>
+2020-08-04 22:09:21,145 - Contact - INFO - load contact <Contact <qwer199627> <Cc>>
+2020-08-04 22:09:21,146 - Contact - INFO - load contact <Contact <qzy404985074> <「自导自演」℡>>
+2020-08-04 22:09:21,147 - Contact - INFO - load contact <Contact <randolph_huang> <Randolph>>
+2020-08-04 22:09:21,148 - Contact - INFO - load contact <Contact <reebokli> <木子日卯>>
+2020-08-04 22:09:21,151 - Contact - INFO - load contact <Contact <sam715768> <Sam>>
+2020-08-04 22:09:21,151 - Contact - INFO - load contact <Contact <sgzy001> <勇bu言弃>>
+2020-08-04 22:09:21,152 - Contact - INFO - load contact <Contact <shenchen986343> <沈沉>>
+2020-08-04 22:09:21,153 - Contact - INFO - load contact <Contact <shouwang662273> <Fan>>
+2020-08-04 22:09:21,154 - Contact - INFO - load contact <Contact <song_huang> <Song.Huang>>
+2020-08-04 22:09:21,155 - Contact - INFO - load contact <Contact <sq1881> <无名老角>>
+2020-08-04 22:09:21,158 - Contact - INFO - load contact <Contact <superman3125> <Superman>>
+2020-08-04 22:09:21,159 - Contact - INFO - load contact <Contact <suruozhong> <苏若中>>
+2020-08-04 22:09:21,162 - Contact - INFO - load contact <Contact <taowei960618> <陶玮>>
+2020-08-04 22:09:21,163 - Contact - INFO - load contact <Contact <w399820721> <吃肉>>
+2020-08-04 22:09:21,163 - Contact - INFO - load contact <Contact <w852970697> <01>>
+2020-08-04 22:09:21,165 - Contact - INFO - load contact <Contact <w_wwlong> <qingwwlong>>
+2020-08-04 22:09:21,166 - Contact - INFO - load contact <Contact <wang6270250> <立木>>
+2020-08-04 22:09:21,167 - Contact - INFO - load contact <Contact <wangchangxin> <昌欣>>
+2020-08-04 22:09:21,168 - Contact - INFO - load contact <Contact <wangmeng19920626> <王猛>>
+2020-08-04 22:09:21,168 - Contact - INFO - load contact <Contact <wangmignbo> <王小波>>
+2020-08-04 22:09:21,169 - Contact - INFO - load contact <Contact <wangxg813> <Sigurd>>
+2020-08-04 22:09:21,170 - Contact - INFO - load contact <Contact <wangzengfe3907> <Lurpis>>
+2020-08-04 22:09:21,171 - Contact - INFO - load contact <Contact <we1025> <刘威>>
+2020-08-04 22:09:21,171 - Contact - INFO - load contact <Contact <wei747494> <刘昊阳>>
+2020-08-04 22:09:21,172 - Contact - INFO - load contact <Contact <weixin> <微信团队>>
+2020-08-04 22:09:21,173 - Contact - INFO - load contact <Contact <weixin_724317524> <harae xin>>
+2020-08-04 22:09:21,174 - Contact - INFO - load contact <Contact <wenyis> <Wen Yi>>
+2020-08-04 22:09:21,177 - Contact - INFO - load contact <Contact <wudi391360> <mingtian>>
+2020-08-04 22:09:21,178 - Contact - INFO - load contact <Contact <wulei651287168> <吴磊>>
+2020-08-04 22:09:21,179 - Contact - INFO - load contact <Contact <wumin842839> <龙骑士>>
+2020-08-04 22:09:21,180 - Contact - INFO - load contact <Contact <wusanwei> <3v>>
+2020-08-04 22:09:21,181 - Contact - INFO - load contact <Contact <wuying8> <J H R>>
+2020-08-04 22:09:21,182 - Contact - INFO - load contact <Contact <wxid_0047530459012> <yet>>
+2020-08-04 22:09:21,183 - Contact - INFO - load contact <Contact <wxid_0335293350812> <北风凉>>
+2020-08-04 22:09:21,184 - Contact - INFO - load contact <Contact <wxid_0354x9qnh6cc22> <酷酷的小可爱>>
+2020-08-04 22:09:21,184 - Contact - INFO - load contact <Contact <wxid_04625lkx5uaj22> <CV君@52CV>>
+2020-08-04 22:09:21,185 - Contact - INFO - load contact <Contact <wxid_0547365473922> <Daωid>>
+2020-08-04 22:09:21,186 - Contact - INFO - load contact <Contact <wxid_0553985539712> <freedom>>
+2020-08-04 22:09:21,187 - Contact - INFO - load contact <Contact <wxid_05wkxktk8f4u21> <海鹰>>
+2020-08-04 22:09:21,188 - Contact - INFO - load contact <Contact <wxid_07xs1f01zjcp22> <赵爽>>
+2020-08-04 22:09:21,188 - Contact - INFO - load contact <Contact <wxid_0b8p6r7p6md122> <杨不悔>>
+2020-08-04 22:09:21,189 - Contact - INFO - load contact <Contact <wxid_0bxs88sfa6iv21> <董峰>>
+2020-08-04 22:09:21,190 - Contact - INFO - load contact <Contact <wxid_0dxdb3ge6enr21> <所有人>>
+2020-08-04 22:09:21,191 - Contact - INFO - load contact <Contact <wxid_0kosnuxdvzqs21> <小蜗牛7号>>
+2020-08-04 22:09:21,192 - Contact - INFO - load contact <Contact <wxid_0mp2uchkzsx122> <OssChat>>
+2020-08-04 22:09:21,192 - Contact - INFO - load contact <Contact <wxid_0p0uleg42u1f12> <圆方>>
+2020-08-04 22:09:21,195 - Contact - INFO - load contact <Contact <wxid_0v9cd7nl77xo22> <Stupid笑>>
+2020-08-04 22:09:21,196 - Contact - INFO - load contact <Contact <wxid_1039530395912> <Hello>>
+2020-08-04 22:09:21,197 - Contact - INFO - load contact <Contact <wxid_1bu4bpgaj87821> <船形>>
+2020-08-04 22:09:21,198 - Contact - INFO - load contact <Contact <wxid_1dqjw77c31y122> <张两万>>
+2020-08-04 22:09:21,199 - Contact - INFO - load contact <Contact <wxid_1f6gut6p5v3422> <祖壹林>>
+2020-08-04 22:09:21,200 - Contact - INFO - load contact <Contact <wxid_1g7wdjtlaysa22> <midas1988>>
+2020-08-04 22:09:21,201 - Contact - INFO - load contact <Contact <wxid_1gw3277g3lhv21> <行路者>>
+2020-08-04 22:09:21,202 - Contact - INFO - load contact <Contact <wxid_1h4k9xisq50712> <null>>
+2020-08-04 22:09:21,203 - Contact - INFO - load contact <Contact <wxid_1qm1rkxlg30x22> <Dawn>>
+2020-08-04 22:09:21,204 - Contact - INFO - load contact <Contact <wxid_1skra3xuwcih21> <Win>>
+2020-08-04 22:09:21,205 - Contact - INFO - load contact <Contact <wxid_1v6owwa1vnvj12> <我是一起>>
+2020-08-04 22:09:21,206 - Contact - INFO - load contact <Contact <wxid_1xv4yy884f6w22> <。>>
+2020-08-04 22:09:21,208 - Contact - INFO - load contact <Contact <wxid_1ywb51thli9h22> <浅若清风>>
+2020-08-04 22:09:21,209 - Contact - INFO - load contact <Contact <wxid_2088410888712> <Mr.White>>
+2020-08-04 22:09:21,210 - Contact - INFO - load contact <Contact <wxid_21sqsj4r4s6922> <Zack>>
+2020-08-04 22:09:21,211 - Contact - INFO - load contact <Contact <wxid_23ke8tv02kq622> <稳>>
+2020-08-04 22:09:21,212 - Contact - INFO - load contact <Contact <wxid_2497715070812> <随风>>
+2020-08-04 22:09:21,213 - Contact - INFO - load contact <Contact <wxid_2566055660012> <dino>>
+2020-08-04 22:09:21,214 - Contact - INFO - load contact <Contact <wxid_2630346303512> <书瓖果>>
+2020-08-04 22:09:21,215 - Contact - INFO - load contact <Contact <wxid_283jgrtoc7gw21> <Wendy Wu吴文林>>
+2020-08-04 22:09:21,216 - Contact - INFO - load contact <Contact <wxid_2fp2pm1l3md421> <瑞丹-Fiona>>
+2020-08-04 22:09:21,217 - Contact - INFO - load contact <Contact <wxid_2jbdw478zgnu12> <人生如戏>>
+2020-08-04 22:09:21,219 - Contact - INFO - load contact <Contact <wxid_2mdlmzftj9so11> <ZCY>>
+2020-08-04 22:09:21,220 - Contact - INFO - load contact <Contact <wxid_2nt4f0f500aa21> <路在延伸>>
+2020-08-04 22:09:21,222 - Contact - INFO - load contact <Contact <wxid_2s8b7yt28jjk21> <陈大白>>
+2020-08-04 22:09:21,223 - Contact - INFO - load contact <Contact <wxid_2v4mqoxs6cr812> <暖房-千空>>
+2020-08-04 22:09:21,224 - Contact - INFO - load contact <Contact <wxid_3137701376922> <Tiger>>
+2020-08-04 22:09:21,225 - Contact - INFO - load contact <Contact <wxid_32rb8og9wb4u22> <吴定都>>
+2020-08-04 22:09:21,226 - Contact - INFO - load contact <Contact <wxid_33te3oy9uf4712> <徐睿>>
+2020-08-04 22:09:21,227 - Contact - INFO - load contact <Contact <wxid_34zzfgzm34h222> <Bruce>>
+2020-08-04 22:09:21,228 - Contact - INFO - load contact <Contact <wxid_3iyjtrqwfcci22> <青>>
+2020-08-04 22:09:21,230 - Contact - INFO - load contact <Contact <wxid_3jd16w4l6p5t22> <黑岩>>
+2020-08-04 22:09:21,232 - Contact - INFO - load contact <Contact <wxid_3neqz128tepj21> <doop-ymc>>
+2020-08-04 22:09:21,234 - Contact - INFO - load contact <Contact <wxid_3ojhk9uaqeen22> <Yao>>
+2020-08-04 22:09:21,235 - Contact - INFO - load contact <Contact <wxid_3s4ib59r90ii22> <See>>
+2020-08-04 22:09:21,236 - Contact - INFO - load contact <Contact <wxid_3wutdmlug7ud21> <还行。。>>
+2020-08-04 22:09:21,237 - Contact - INFO - load contact <Contact <wxid_43gt0h1h5dny11> <jq>>
+2020-08-04 22:09:21,238 - Contact - INFO - load contact <Contact <wxid_43yz7mb6dp2812> <小苏同学>>
+2020-08-04 22:09:21,239 - Contact - INFO - load contact <Contact <wxid_44ixsp1t1nmf22> <史茹倩>>
+2020-08-04 22:09:21,240 - Contact - INFO - load contact <Contact <wxid_45samwlakt5n22> <五维空间>>
+2020-08-04 22:09:21,241 - Contact - INFO - load contact <Contact <wxid_4983329830512> <野猪佩奇>>
+2020-08-04 22:09:21,242 - Contact - INFO - load contact <Contact <wxid_4cugm6dttsn722> <公孙墨岚>>
+2020-08-04 22:09:21,245 - Contact - INFO - load contact <Contact <wxid_4fyf5s0cd6xv22> <取一瓢饮>>
+2020-08-04 22:09:21,246 - Contact - INFO - load contact <Contact <wxid_4g9paqx649d822> <Sky>>
+2020-08-04 22:09:21,247 - Contact - INFO - load contact <Contact <wxid_4kmwjmdkcs3l22> <赵文义>>
+2020-08-04 22:09:21,249 - Contact - INFO - load contact <Contact <wxid_4l6ct89i40i111> <超>>
+2020-08-04 22:09:21,251 - Contact - INFO - load contact <Contact <wxid_4qhxbyax9a1322> <RobotZero>>
+2020-08-04 22:09:21,252 - Contact - INFO - load contact <Contact <wxid_4qzclzdadk0t22> <偏偏喜欢你>>
+2020-08-04 22:09:21,252 - Contact - INFO - load contact <Contact <wxid_4qznf9kshn6z22> <给我也整一个>>
+2020-08-04 22:09:21,253 - Contact - INFO - load contact <Contact <wxid_4tnz11kza44r22> <叶子>>
+2020-08-04 22:09:21,254 - Contact - INFO - load contact <Contact <wxid_4wkls7tu62ua12> <Friday BOT>>
+2020-08-04 22:09:21,256 - Contact - INFO - load contact <Contact <wxid_4zhzp4md2fqm22> <倾诉>>
+2020-08-04 22:09:21,257 - Contact - INFO - load contact <Contact <wxid_5146241436712> <Tuvas>>
+2020-08-04 22:09:21,259 - Contact - INFO - load contact <Contact <wxid_518wcnzuhn2212> <岭北>>
+2020-08-04 22:09:21,261 - Contact - INFO - load contact <Contact <wxid_5614316142511> <Laura>>
+2020-08-04 22:09:21,262 - Contact - INFO - load contact <Contact <wxid_5807038067212> <s1mple>>
+2020-08-04 22:09:21,262 - Contact - INFO - load contact <Contact <wxid_58pe1ekwfuu922> <大熊>>
+2020-08-04 22:09:21,263 - Contact - INFO - load contact <Contact <wxid_5968479675212> <Wang Zhen>>
+2020-08-04 22:09:21,264 - Contact - INFO - load contact <Contact <wxid_59uiqdm0je5352> <思想驰骋>>
+2020-08-04 22:09:21,266 - Contact - INFO - load contact <Contact <wxid_5bc4srtyaj3l22> <郭艳>>
+2020-08-04 22:09:21,267 - Contact - INFO - load contact <Contact <wxid_5gkrh36rzdag21> <dream>>
+2020-08-04 22:09:21,268 - Contact - INFO - load contact <Contact <wxid_5iq5uo4czns412> <CV君@52CV>>
+2020-08-04 22:09:21,270 - Contact - INFO - load contact <Contact <wxid_5kpixblh68w222> <Arfan>>
+2020-08-04 22:09:21,272 - Contact - INFO - load contact <Contact <wxid_5ndgsil2ctam21> <焦其宁（QíNíng-jiāo）>>
+2020-08-04 22:09:21,273 - Contact - INFO - load contact <Contact <wxid_5nmxxj32x1qz22> <张三>>
+2020-08-04 22:09:21,274 - Contact - INFO - load contact <Contact <wxid_5qmqiy6qtgkg12> <Sia>>
+2020-08-04 22:09:21,275 - Contact - INFO - load contact <Contact <wxid_5unnak3raqlm22> <大耳刘>>
+2020-08-04 22:09:21,276 - Contact - INFO - load contact <Contact <wxid_5zgyc94dy01w11> <陈浩>>
+2020-08-04 22:09:21,277 - Contact - INFO - load contact <Contact <wxid_5zj4i5htp9ih22> <Huan LI>>
+2020-08-04 22:09:21,277 - Contact - INFO - load contact <Contact <wxid_6103401034712> <Alive>>
+2020-08-04 22:09:21,278 - Contact - INFO - load contact <Contact <wxid_64h3jsgi8c1c22> <卓米>>
+2020-08-04 22:09:21,279 - Contact - INFO - load contact <Contact <wxid_6764777647614> <采蘑菇、找bug的小伙子，在路上>>
+2020-08-04 22:09:21,280 - Contact - INFO - load contact <Contact <wxid_6a94g4hryfg612> <Tommy Chen>>
+2020-08-04 22:09:21,281 - Contact - INFO - load contact <Contact <wxid_6gj816slvlcp21> <shows>>
+2020-08-04 22:09:21,290 - Contact - INFO - load contact <Contact <wxid_6uw1e98ke3rv22> <pacific moon>>
+2020-08-04 22:09:21,291 - Contact - INFO - load contact <Contact <wxid_6wjpyfsmer6f22> <闻W先生>>
+2020-08-04 22:09:21,292 - Contact - INFO - load contact <Contact <wxid_74d6v58c4guj22> <#(无知的菜狗 %)>>
+2020-08-04 22:09:21,292 - Contact - INFO - load contact <Contact <wxid_7769227692111> <观云>>
+2020-08-04 22:09:21,294 - Contact - INFO - load contact <Contact <wxid_7b1pepcb321q22> <Cheetah>>
+2020-08-04 22:09:21,295 - Contact - INFO - load contact <Contact <wxid_7c2ivr0goq9x12> <Josh Xu>>
+2020-08-04 22:09:21,442 - Contact - INFO - load contact <Contact <wxid_7nd09jafy0rp22> <Andrew>>
+2020-08-04 22:09:21,443 - Contact - INFO - load contact <Contact <wxid_7mt4usnn73wc22> <CV君@52CV>>
+2020-08-04 22:09:21,443 - Contact - INFO - load contact <Contact <wxid_7nofcm3ccaqz21> <董>>
+2020-08-04 22:09:21,444 - Contact - INFO - load contact <Contact <wxid_7qjeurzw9ip922> <早睡早起>>
+2020-08-04 22:09:21,445 - Contact - INFO - load contact <Contact <wxid_7r4lraes46qg11> <hamburger>>
+2020-08-04 22:09:21,446 - Contact - INFO - load contact <Contact <wxid_7t3h0pqr9cd841> <frost、>>
+2020-08-04 22:09:21,451 - Contact - INFO - load contact <Contact <wxid_7yg2ykbd9jrl11> <zhaoy>>
+2020-08-04 22:09:21,452 - Contact - INFO - load contact <Contact <wxid_8187321872912> <冯德军>>
+2020-08-04 22:09:21,453 - Contact - INFO - load contact <Contact <wxid_8777557772812> <NineRuiing>>
+2020-08-04 22:09:21,454 - Contact - INFO - load contact <Contact <wxid_8968899683912> <康>>
+2020-08-04 22:09:21,455 - Contact - INFO - load contact <Contact <wxid_8bqyix2yeuc221> <Andy杨>>
+2020-08-04 22:09:21,456 - Contact - INFO - load contact <Contact <wxid_8ecbfpn75u0a22> <～海阔天空～>>
+2020-08-04 22:09:21,456 - Contact - INFO - load contact <Contact <wxid_8hly4r3quvu922> <Xposean>>
+2020-08-04 22:09:21,458 - Contact - INFO - load contact <Contact <wxid_8t0oswmc4niu22> <-One>>
+2020-08-04 22:09:21,458 - Contact - INFO - load contact <Contact <wxid_8wges7uu324721> <minda>>
+2020-08-04 22:09:21,459 - Contact - INFO - load contact <Contact <wxid_8xa6akr6djio21> <Kaishen>>
+2020-08-04 22:09:21,460 - Contact - INFO - load contact <Contact <wxid_8ydqypwkmmne22> <ycrobot>>
+2020-08-04 22:09:21,462 - Contact - INFO - load contact <Contact <wxid_8ynlzft9zc2m11> <ly>>
+2020-08-04 22:09:21,464 - Contact - INFO - load contact <Contact <wxid_8yqacuqdvfw512> <辛巴>>
+2020-08-04 22:09:21,466 - Contact - INFO - load contact <Contact <wxid_9104571047012> <Ruthless。>>
+2020-08-04 22:09:21,467 - Contact - INFO - load contact <Contact <wxid_9146261462414> <CI2VO5IXZ7>>
+2020-08-04 22:09:21,469 - Contact - INFO - load contact <Contact <wxid_9171571712012> <暴走大头鱼>>
+2020-08-04 22:09:21,471 - Contact - INFO - load contact <Contact <wxid_9330253303112> <阳光海岸>>
+2020-08-04 22:09:21,473 - Contact - INFO - load contact <Contact <wxid_9863948637412> <Mr.R>>
+2020-08-04 22:09:21,476 - Contact - INFO - load contact <Contact <wxid_9d216fnvrrtu22> <231_>>
+2020-08-04 22:09:21,477 - Contact - INFO - load contact <Contact <wxid_9fvpp8gmzp0q21> <卡卡卡卡里古拉>>
+2020-08-04 22:09:21,478 - Contact - INFO - load contact <Contact <wxid_9hdzwwqfbfqp12> <微波特>>
+2020-08-04 22:09:21,482 - Contact - INFO - load contact <Contact <wxid_a8d806dzznm822> <Mike (李卓桓)>>
+2020-08-04 22:09:21,484 - Contact - INFO - load contact <Contact <wxid_acs9plzxjyx122> <弗法>>
+2020-08-04 22:09:21,486 - Contact - INFO - load contact <Contact <wxid_aet3jovsj9xy21> <图图-Adam>>
+2020-08-04 22:09:21,488 - Contact - INFO - load contact <Contact <wxid_aftotbu5dxlp22> <江>>
+2020-08-04 22:09:21,489 - Contact - INFO - load contact <Contact <wxid_aha7fzztdjan22> <Jiabin>>
+2020-08-04 22:09:21,490 - Contact - INFO - load contact <Contact <wxid_ahnao64yhq9h21> <雨空明>>
+2020-08-04 22:09:21,491 - Contact - INFO - load contact <Contact <wxid_aibf31w49xb222> <bot>>
+2020-08-04 22:09:21,492 - Contact - INFO - load contact <Contact <wxid_akpsl0zrpp2i22> <刘迎飞>>
+2020-08-04 22:09:21,493 - Contact - INFO - load contact <Contact <wxid_akt94hmn8gek11> <lzy>>
+2020-08-04 22:09:21,495 - Contact - INFO - load contact <Contact <wxid_ame3vc7s0glf1> <肖新美>>
+2020-08-04 22:09:21,496 - Contact - INFO - load contact <Contact <wxid_ashjvlqk8mp621> <江湖夜雨>>
+2020-08-04 22:09:21,500 - Contact - INFO - load contact <Contact <wxid_au53l42pvs9x22> <张承接>>
+2020-08-04 22:09:21,502 - Contact - INFO - load contact <Contact <wxid_ay2kc4xeh0sy22> <CV君@52CV>>
+2020-08-04 22:09:21,503 - Contact - INFO - load contact <Contact <wxid_b2xokg87q9sl22> <我的宠物是蚂烟儿>>
+2020-08-04 22:09:21,507 - Contact - INFO - load contact <Contact <wxid_behxslpnmly721> <Mr. Chen>>
+2020-08-04 22:09:21,509 - Contact - INFO - load contact <Contact <wxid_bibhfgo6kpft21> <LIIIUUUH>>
+2020-08-04 22:09:21,511 - Contact - INFO - load contact <Contact <wxid_biz9387t6y2y22> <Zzz>>
+2020-08-04 22:09:21,512 - Contact - INFO - load contact <Contact <wxid_bkwsv1zfaag312> <Phoo_H>>
+2020-08-04 22:09:21,513 - Contact - INFO - load contact <Contact <wxid_bnixwusjpjh522> <棉花糖one>>
+2020-08-04 22:09:21,515 - Contact - INFO - load contact <Contact <wxid_bt9nkugm3vsk12> <曹锐>>
+2020-08-04 22:09:21,517 - Contact - INFO - load contact <Contact <wxid_btlfe4y4swut41> <嘘，别吱声>>
+2020-08-04 22:09:21,518 - Contact - INFO - load contact <Contact <wxid_c6ssxxtwir6911> <lznine>>
+2020-08-04 22:09:21,519 - Contact - INFO - load contact <Contact <wxid_cah8abj32te021> <VisJiao>>
+2020-08-04 22:09:21,521 - Contact - INFO - load contact <Contact <wxid_cddzdsqv2ncb22> <魍魉>>
+2020-08-04 22:09:21,522 - Contact - INFO - load contact <Contact <wxid_cfenftijhhms21> <Hoooooo！>>
+2020-08-04 22:09:21,524 - Contact - INFO - load contact <Contact <wxid_cia0fzny16pd22> <琳琳>>
+2020-08-04 22:09:21,525 - Contact - INFO - load contact <Contact <wxid_cj4bx49izfbt22> <一介草民>>
+2020-08-04 22:09:21,526 - Contact - INFO - load contact <Contact <wxid_criwiic8nkv212> <will8>>
+2020-08-04 22:09:21,527 - Contact - INFO - load contact <Contact <wxid_d1tua6lll21t22> <拿了橘子跑>>
+2020-08-04 22:09:21,528 - Contact - INFO - load contact <Contact <wxid_d1yegmg0l7w222> <阿杜>>
+2020-08-04 22:09:21,529 - Contact - INFO - load contact <Contact <wxid_d6pnnfjv5gbm22> <好物先生>>
+2020-08-04 22:09:21,530 - Contact - INFO - load contact <Contact <wxid_d7u7j6pg8jkq12> <棠>>
+2020-08-04 22:09:21,531 - Contact - INFO - load contact <Contact <wxid_d95ftfxjksoq22> <33>>
+2020-08-04 22:09:21,535 - Contact - INFO - load contact <Contact <wxid_dddysb38zkwv22> <龙抬头>>
+2020-08-04 22:09:21,536 - Contact - INFO - load contact <Contact <wxid_dekr8kqu1xsk22> <54孟>>
+2020-08-04 22:09:21,537 - Contact - INFO - load contact <Contact <wxid_dn4ztyenv9ka12> <清风>>
+2020-08-04 22:09:21,537 - Contact - INFO - load contact <Contact <wxid_dngp319tluj022> <Ouyang>>
+2020-08-04 22:09:21,539 - Contact - INFO - load contact <Contact <wxid_dp8e0go00q6w22> <风云二号>>
+2020-08-04 22:09:21,540 - Contact - INFO - load contact <Contact <wxid_dpys8mwv3z5922> <小犀利豆>>
+2020-08-04 22:09:21,541 - Contact - INFO - load contact <Contact <wxid_dq4dfj0uh45q22> <May>>
+2020-08-04 22:09:21,542 - Contact - INFO - load contact <Contact <wxid_dy3x5kxwjqed22> <局外人>>
+2020-08-04 22:09:48,190 - Wechaty - INFO - on() listen event <scan> with <<function main.<locals>.<lambda> at 0x0000026F24BB5598>>
+2020-08-04 22:09:48,190 - Wechaty - DEBUG - emit() event <['scan', '<function main.<locals>.<lambda> at 0x0000026F24BB5598>']> <{}>
+2020-08-04 22:09:48,190 - Wechaty - INFO - on() listen event <login> with <<function main.<locals>.<lambda> at 0x0000026F24BB56A8>>
+2020-08-04 22:09:48,190 - Wechaty - DEBUG - emit() event <['login', '<function main.<locals>.<lambda> at 0x0000026F24BB56A8>']> <{}>
+2020-08-04 22:09:48,191 - Wechaty - INFO - on() listen event <message> with <<function on_message at 0x0000026F23F61EA0>>
+2020-08-04 22:09:48,191 - Wechaty - DEBUG - emit() event <['message', '<function on_message at 0x0000026F23F61EA0>']> <{}>
+2020-08-04 22:09:48,282 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_hostie.puppet.HostiePuppet object at 0x0000026F24BAD7F0>>
+2020-08-04 22:09:48,282 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2020-08-04 22:09:48,282 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2020-08-04 22:09:48,283 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2020-08-04 22:09:48,283 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2020-08-04 22:09:48,283 - Wechaty - INFO - receive <reset> event <%s>
+2020-08-04 22:09:48,283 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2020-08-04 22:09:48,283 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2020-08-04 22:09:48,283 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2020-08-04 22:09:48,284 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2020-08-04 22:09:48,284 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2020-08-04 22:09:48,284 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2020-08-04 22:09:48,284 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2020-08-04 22:09:48,284 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2020-08-04 22:09:48,285 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2020-08-04 22:09:48,285 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2020-08-04 22:09:48,285 - Wechaty - INFO - starting puppet ...
+2020-08-04 22:09:48,285 - HostiePuppet - INFO - init puppet
+2020-08-04 22:09:48,285 - HostiePuppet - INFO - There is no endpoint in cache, trying to fetch endpoint with token.
+2020-08-04 22:09:52,427 - HostiePuppet - DEBUG - get puppet ip address : <{'ip': '52.82.110.129', 'port': 15106}>
+2020-08-04 22:09:52,430 - HostiePuppet - INFO - starting the puppet ...
+2020-08-04 22:09:52,579 - HostiePuppet - INFO - puppet has started ...
+2020-08-04 22:09:52,579 - HostiePuppet - INFO - listening the event from the puppet ...
+2020-08-04 22:09:52,638 - HostiePuppet - DEBUG - receive login info <{'contactId': 'wxid_ducokm8pteat22'}>
+2020-08-04 22:09:52,638 - Wechaty - INFO - receive <login> event <EventLoginPayload(contact_id='wxid_ducokm8pteat22')>
+2020-08-04 22:09:52,688 - Contact - INFO - load contact <Contact <wxid_ducokm8pteat22> <MyGhost__>>
+2020-08-04 22:09:52,688 - Wechaty - DEBUG - emit() event <['Contact <wxid_ducokm8pteat22> <MyGhost__>']> <{}>
+2020-08-04 22:09:52,688 - wechaty.plugin - INFO - init the plugins ...
+2020-08-04 22:09:55,302 - HostiePuppet - DEBUG - receive message info <{'messageId': '5781621650408150526'}>
+2020-08-04 22:09:55,303 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='5781621650408150526', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2020-08-04 22:09:55,303 - Message - DEBUG - Message ready <<5781621650408150526> not ready>
+2020-08-04 22:09:55,415 - Contact - INFO - load contact <Contact <wzhwno1> <Titus.Wong>>
+2020-08-04 22:09:55,554 - Contact - INFO - load contact <Contact <wxid_jrnjoldb721q22> <Robot>>
+2020-08-04 22:09:55,603 - Contact - INFO - load contact <Contact <wxid_kfqsq4e8rqn721> <Titus.Wong>>
+2020-08-04 22:09:55,604 - Wechaty - INFO - receive message <room <Room <18887123951@chatroom - 量化动态播报>>, talker Contact <wzhwno1> <Titus.Wong>, say to contact <Contact <>>, #ding>
+2020-08-04 22:09:55,604 - Wechaty - DEBUG - emit() event <['room <Room <18887123951@chatroom - 量化动态播报>>, talker Contact <wzhwno1> <Titus.Wong>, say to contact <Contact <>>, #ding']> <{}>
+2020-08-04 22:09:55,605 - Room - INFO - Room say <dong, None>
+2020-08-04 22:09:55,778 - Message - DEBUG - Message ready <<5855644692049048731> not ready>
+2020-08-04 22:09:55,781 - HostiePuppet - DEBUG - receive message info <{'messageId': '5855644692049048731'}>
+2020-08-04 22:09:55,781 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='5855644692049048731', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2020-08-04 22:09:55,781 - Message - DEBUG - Message ready <<5855644692049048731> not ready>
+2020-08-04 22:09:55,825 - Contact - INFO - find() <<class 'wechaty.wechaty.Contact'>, Titus.Wong>
+2020-08-04 22:09:55,826 - Contact - INFO - find_all() <<class 'wechaty.wechaty.Contact'>, Titus.Wong>
+2020-08-04 22:09:55,828 - Wechaty - INFO - receive message <room <Room <18887123951@chatroom - 量化动态播报>>, talker Contact <wxid_ducokm8pteat22> <MyGhost__>, say to contact <Contact <>>, dong>
+2020-08-04 22:09:55,829 - Wechaty - DEBUG - emit() event <['room <Room <18887123951@chatroom - 量化动态播报>>, talker Contact <wxid_ducokm8pteat22> <MyGhost__>, say to contact <Contact <>>, dong']> <{}>
+2020-08-04 22:09:57,803 - Contact - INFO - load contact <Contact <BJOnFire> <JG>>
+2020-08-04 22:09:57,810 - Contact - INFO - load contact <Contact <Evanwu2011> <NG>>
+2020-08-04 22:09:57,811 - Contact - INFO - load contact <Contact <GLM1943258508> <果乐>>
+2020-08-04 22:09:57,812 - Contact - INFO - load contact <Contact <GX_123> <Future52>>
+2020-08-04 22:09:57,813 - Contact - INFO - load contact <Contact <Gracian> <Gracian>>
+2020-08-04 22:09:57,814 - Contact - INFO - load contact <Contact <Greatest_Ever> <废柴MADAO>>
+2020-08-04 22:09:57,815 - Contact - INFO - load contact <Contact <H409766147X12J04> < Enchanter>>
+2020-08-04 22:09:57,816 - Contact - INFO - load contact <Contact <HighSpeedSpace> <汤姆>>
+2020-08-04 22:09:57,817 - Contact - INFO - load contact <Contact <Jason_300> <Jason>>
+2020-08-04 22:09:57,817 - Contact - INFO - load contact <Contact <LonelyWarrior1988> <土拨鼠>>
+2020-08-04 22:09:57,818 - Contact - INFO - load contact <Contact <Lucifer_N> <Nolan>>
+2020-08-04 22:09:57,819 - Contact - INFO - load contact <Contact <MG1393133944> <阿祝>>
+2020-08-04 22:09:57,820 - Contact - INFO - load contact <Contact <Mr-weirun> <R.>>
+2020-08-04 22:09:57,821 - Contact - INFO - load contact <Contact <NBA0002012> <ouou>>
+2020-08-04 22:09:57,822 - Contact - INFO - load contact <Contact <Nickey1314> <Nickey>>
+2020-08-04 22:09:57,823 - Contact - INFO - load contact <Contact <Paraself2010> <Yves Wang>>
+2020-08-04 22:09:57,824 - Contact - INFO - load contact <Contact <Q1435255141> <阿杰>>
+2020-08-04 22:09:57,824 - Contact - INFO - load contact <Contact <Soul001001> <苏畅>>
+2020-08-04 22:09:57,825 - Contact - INFO - load contact <Contact <V343461392> <国松>>
+2020-08-04 22:09:57,826 - Contact - INFO - load contact <Contact <Vvvsmallbo> <李o_O>>
+2020-08-04 22:09:57,827 - Contact - INFO - load contact <Contact <Walky002> <Walky>>
+2020-08-04 22:09:57,828 - Contact - INFO - load contact <Contact <YL54678421> <无名>>
+2020-08-04 22:09:57,833 - Contact - INFO - load contact <Contact <Zaxing123> <张兴>>
+2020-08-04 22:09:57,834 - Contact - INFO - load contact <Contact <a-15963254> <ALong>>
+2020-08-04 22:09:57,835 - Contact - INFO - load contact <Contact <a32647883> <Li>>
+2020-08-04 22:09:57,835 - Contact - INFO - load contact <Contact <a34001960> <王岱>>
+2020-08-04 22:09:57,838 - Contact - INFO - load contact <Contact <a714893270> <三未>>
+2020-08-04 22:09:57,839 - Contact - INFO - load contact <Contact <aiyalala> <睡不醒>>
+2020-08-04 22:09:57,840 - Contact - INFO - load contact <Contact <alexYYY> <alex>>
+2020-08-04 22:09:57,841 - Contact - INFO - load contact <Contact <alexec> <alex>>
+2020-08-04 22:09:57,841 - Contact - INFO - load contact <Contact <andy_lijun> <Andy_LIJUN>>
+2020-08-04 22:09:57,842 - Contact - INFO - load contact <Contact <askfuture> <龙少>>
+2020-08-04 22:09:57,843 - Contact - INFO - load contact <Contact <asun_bigholy> <asun>>
+2020-08-04 22:09:57,844 - Contact - INFO - load contact <Contact <babafall> <冯润全>>
+2020-08-04 22:09:57,845 - Contact - INFO - load contact <Contact <bagededipan> <网球王子酷酷>>
+2020-08-04 22:09:57,846 - Contact - INFO - load contact <Contact <banny560008> <止水>>
+2020-08-04 22:09:57,847 - Contact - INFO - load contact <Contact <baoquanmotto> <MrBaoquan>>
+2020-08-04 22:09:57,847 - Contact - INFO - load contact <Contact <bergkamps> <若识>>
+2020-08-04 22:09:57,848 - Contact - INFO - load contact <Contact <blues-wang> <斯道>>
+2020-08-04 22:09:57,849 - Contact - INFO - load contact <Contact <bluesky_still> <天空蔚蓝>>
+2020-08-04 22:09:57,850 - Contact - INFO - load contact <Contact <borisbao> <回车键>>
+2020-08-04 22:09:57,851 - Contact - INFO - load contact <Contact <caicaixs> <CAiCai>>
+2020-08-04 22:09:57,851 - Contact - INFO - load contact <Contact <caomushen315> <那时花开>>
+2020-08-04 22:09:57,852 - Contact - INFO - load contact <Contact <carlxia> <夏之晟>>
+2020-08-04 22:09:57,853 - Contact - INFO - load contact <Contact <ccyhxc> <myq>>
+2020-08-04 22:09:57,854 - Contact - INFO - load contact <Contact <cengzhi246832> <曾志>>
+2020-08-04 22:09:57,855 - Contact - INFO - load contact <Contact <chaoshuyang> <晁舒杨>>
+2020-08-04 22:09:57,856 - Contact - INFO - load contact <Contact <chengaopan0909> <高攀>>
+2020-08-04 22:09:57,857 - Contact - INFO - load contact <Contact <chenyao735122991> <陈尧>>
+2020-08-04 22:09:57,858 - Contact - INFO - load contact <Contact <chenzqcn> <Chen>>
+2020-08-04 22:09:57,858 - Contact - INFO - load contact <Contact <chguofeng> <Guofeng>>
+2020-08-04 22:09:57,859 - Contact - INFO - load contact <Contact <china-ngh> <风云>>
+2020-08-04 22:09:57,860 - Contact - INFO - load contact <Contact <cissy930426> <瑶鑫Cecilia>>
+2020-08-04 22:09:57,861 - Contact - INFO - load contact <Contact <cosmicvision> <日月同辉@智能视觉>>
+2020-08-04 22:09:57,862 - Contact - INFO - load contact <Contact <cyhtdawh> <Yao、He>>
+2020-08-04 22:09:57,863 - Contact - INFO - load contact <Contact <cz858501063> <飓风儿师姐>>
+2020-08-04 22:09:57,863 - Contact - INFO - load contact <Contact <daredevilcho> <Capharnaüm>>
+2020-08-04 22:09:57,864 - Contact - INFO - load contact <Contact <david170113044> <埚牛>>
+2020-08-04 22:09:57,865 - Contact - INFO - load contact <Contact <diaozxin> <犀利豆>>
+2020-08-04 22:09:57,866 - Contact - INFO - load contact <Contact <djf920516> <wind>>
+2020-08-04 22:09:57,867 - Contact - INFO - load contact <Contact <duling2768> <杜玲>>
+2020-08-04 22:09:57,868 - Contact - INFO - load contact <Contact <dupeng19900418> <杜鹏>>
+2020-08-04 22:09:57,869 - Contact - INFO - load contact <Contact <dwxd2007> <紫玉>>
+2020-08-04 22:09:57,869 - Contact - INFO - load contact <Contact <ekinchen_wei> <太阳公公>>
+2020-08-04 22:09:57,870 - Contact - INFO - load contact <Contact <eric1170316249> <ERIC>>
+2020-08-04 22:09:57,871 - Contact - INFO - load contact <Contact <eternityi> <wxid_9bzid47uf5zd27>>
+2020-08-04 22:09:57,872 - Contact - INFO - load contact <Contact <ethan_likailin> <开林1>>
+2020-08-04 22:09:57,873 - Contact - INFO - load contact <Contact <fengbs600220> <deepbrainfeng>>
+2020-08-04 22:09:57,873 - Contact - INFO - load contact <Contact <fenglinxiran> <枫林夕染>>
+2020-08-04 22:09:57,874 - Contact - INFO - load contact <Contact <feoniy> <jifengbo>>
+2020-08-04 22:09:57,875 - Contact - INFO - load contact <Contact <filehelper> <文件传输助手>>
+2020-08-04 22:09:57,876 - Contact - INFO - load contact <Contact <findbugs> <无尽空虚>>
+2020-08-04 22:09:57,876 - Contact - INFO - load contact <Contact <for_yf> <Y.found>>
+2020-08-04 22:09:57,877 - Contact - INFO - load contact <Contact <freefly0828> <林>>
+2020-08-04 22:09:57,880 - Contact - INFO - load contact <Contact <frenet79> <宋敦江-中科院>>
+2020-08-04 22:09:57,881 - Contact - INFO - load contact <Contact <fx_1799> <至金>>
+2020-08-04 22:09:57,882 - Contact - INFO - load contact <Contact <gctommy> <Tommy>>
+2020-08-04 22:09:57,883 - Contact - INFO - load contact <Contact <gh_c16eebc29c1d> <BotSentry>>
+2020-08-04 22:09:57,884 - Contact - INFO - load contact <Contact <gowebs> <锋芒>>
+2020-08-04 22:09:57,885 - Contact - INFO - load contact <Contact <guoguo48484848> <郭赞华@惠商城>>
+2020-08-04 22:09:57,886 - Contact - INFO - load contact <Contact <gyc874746615> <Vitro>>
+2020-08-04 22:09:57,886 - Contact - INFO - load contact <Contact <hanxiaoluoxue> <树叶>>
+2020-08-04 22:09:57,887 - Contact - INFO - load contact <Contact <harly4444> <贰罐哈利>>
+2020-08-04 22:09:57,888 - Contact - INFO - load contact <Contact <hehe010138> <Dummi>>
+2020-08-04 22:09:57,889 - Contact - INFO - load contact <Contact <heweili1984> <何伟立>>
+2020-08-04 22:09:57,890 - Contact - INFO - load contact <Contact <hhhhhppppp> <15621585100>>
+2020-08-04 22:09:57,891 - Contact - INFO - load contact <Contact <himxg001> <AI>>
+2020-08-04 22:09:57,892 - Contact - INFO - load contact <Contact <hismilesue> <Su>>
+2020-08-04 22:09:57,893 - Contact - INFO - load contact <Contact <hj1021846662> <郝进>>
+2020-08-04 22:09:57,894 - Contact - INFO - load contact <Contact <hss-sbb> <不 二>>
+2020-08-04 22:09:57,894 - Contact - INFO - load contact <Contact <hua_sheng18> <蓝铅笔>>
+2020-08-04 22:09:57,895 - Contact - INFO - load contact <Contact <huangkun_1988> <习惯丶>>
+2020-08-04 22:09:57,896 - Contact - INFO - load contact <Contact <huangwenchao1987> <呆滞的慢板>>
+2020-08-04 22:09:57,897 - Contact - INFO - load contact <Contact <huhupaozhenyoucai> <张健>>
+2020-08-04 22:09:57,898 - Contact - INFO - load contact <Contact <hunter8killer> <英雄好漢>>
+2020-08-04 22:09:57,902 - Contact - INFO - load contact <Contact <i5800me> <程路>>
+2020-08-04 22:09:57,903 - Contact - INFO - load contact <Contact <iwiilbeback> <如风中龅牙>>
+2020-08-04 22:09:57,904 - Contact - INFO - load contact <Contact <jack2757> <啸宇>>
+2020-08-04 22:09:57,905 - Contact - INFO - load contact <Contact <janson19832012> <Janson>>
+2020-08-04 22:09:57,906 - Contact - INFO - load contact <Contact <jemmun> <刘文>>
+2020-08-04 22:09:57,906 - Contact - INFO - load contact <Contact <jerychang> <张凤强>>
+2020-08-04 22:09:57,907 - Contact - INFO - load contact <Contact <jh0558520> <等风来>>
+2020-08-04 22:09:57,908 - Contact - INFO - load contact <Contact <jianguang_yi> <Jim>>
+2020-08-04 22:09:57,909 - Contact - INFO - load contact <Contact <jimmy88129> <小飞龙仔>>
+2020-08-04 22:09:57,910 - Contact - INFO - load contact <Contact <jk190766630> <梦中斩桃花>>
+2020-08-04 22:09:57,911 - Contact - INFO - load contact <Contact <jueduizone> <ZzZzz...>>
+2020-08-04 22:09:57,912 - Contact - INFO - load contact <Contact <junewen2008> <cooljunewen>>
+2020-08-04 22:09:57,913 - Contact - INFO - load contact <Contact <jxkk1153> <一零>>
+2020-08-04 22:09:57,914 - Contact - INFO - load contact <Contact <kevin19861101> <枫叶小虫>>
+2020-08-04 22:09:57,917 - Contact - INFO - load contact <Contact <kkkwill> <魏雷雷>>
+2020-08-04 22:09:57,917 - Contact - INFO - load contact <Contact <langzi405819> <东方河图>>
+2020-08-04 22:09:57,918 - Contact - INFO - load contact <Contact <leibazhanshi> <fenciu>>
+2020-08-04 22:09:57,919 - Contact - INFO - load contact <Contact <leipengaa> <Ray>>
+2020-08-04 22:09:57,920 - Contact - INFO - load contact <Contact <lemonhall> <余柠>>
+2020-08-04 22:09:57,921 - Contact - INFO - load contact <Contact <lengyuezhongdelove> <猫不会笑>>
+2020-08-04 22:09:57,921 - Contact - INFO - load contact <Contact <less201101> <你的名字。>>
+2020-08-04 22:09:57,922 - Contact - INFO - load contact <Contact <liang15036112852> <一坨小哥>>
+2020-08-04 22:09:57,923 - Contact - INFO - load contact <Contact <lijibiao> <李继标>>
+2020-08-04 22:09:57,924 - Contact - INFO - load contact <Contact <lin52013141799> <Accelerator、>>
+2020-08-04 22:09:57,925 - Contact - INFO - load contact <Contact <lishengming> <李晟铭>>
+2020-08-04 22:09:57,926 - Contact - INFO - load contact <Contact <liujialing053905> <巨蟹>>
+2020-08-04 22:09:57,927 - Contact - INFO - load contact <Contact <liyan722188> <木兰香>>
+2020-08-04 22:09:57,928 - Contact - INFO - load contact <Contact <lovelifeU1314> <问>>
+2020-08-04 22:09:57,928 - Contact - INFO - load contact <Contact <luffy0520> <杰>>
+2020-08-04 22:09:57,929 - Contact - INFO - load contact <Contact <luo-li> <白夜>>
+2020-08-04 22:09:57,930 - Contact - INFO - load contact <Contact <luwei_1280380446> <瘦瘦瘦>>
+2020-08-04 22:09:57,931 - Contact - INFO - load contact <Contact <lxaptx375020612> <Kylin>>
+2020-08-04 22:09:57,934 - Contact - INFO - load contact <Contact <manze_wangdong> <Eric>>
+2020-08-04 22:09:57,934 - Contact - INFO - load contact <Contact <maximus0000> <唐皓颖>>
+2020-08-04 22:09:57,935 - Contact - INFO - load contact <Contact <millionfor> <圈圈>>
+2020-08-04 22:09:57,936 - Contact - INFO - load contact <Contact <moxibingdao> <Amos>>
+2020-08-04 22:09:57,937 - Contact - INFO - load contact <Contact <my844851985> <西乡-奥利奥>>
+2020-08-04 22:09:57,938 - Contact - INFO - load contact <Contact <myphysics800> <汪涛涛涛涛>>
+2020-08-04 22:09:57,939 - Contact - INFO - load contact <Contact <niexing123> <聂星>>
+2020-08-04 22:09:57,940 - Contact - INFO - load contact <Contact <ohmyharry> <氢氧化醋>>
+2020-08-04 22:09:57,942 - Contact - INFO - load contact <Contact <pipenix> <Alex.Di>>
+2020-08-04 22:09:57,946 - Contact - INFO - load contact <Contact <q1215850394> <cai lei>>
+2020-08-04 22:09:57,947 - Contact - INFO - load contact <Contact <q17672268> <邱恒甲>>
+2020-08-04 22:09:57,947 - Contact - INFO - load contact <Contact <q458373250> <逆流时光>>
+2020-08-04 22:09:57,948 - Contact - INFO - load contact <Contact <qaz201212> <Y>>
+2020-08-04 22:09:57,949 - Contact - INFO - load contact <Contact <qingxibansheng477038> <Mrtsan>>
+2020-08-04 22:09:57,950 - Contact - INFO - load contact <Contact <qq26048067> <sz>>
+2020-08-04 22:09:57,951 - Contact - INFO - load contact <Contact <qq512436430> <李佳芮>>
+2020-08-04 22:09:57,951 - Contact - INFO - load contact <Contact <qq513881503> <Halton>>
+2020-08-04 22:09:57,952 - Contact - INFO - load contact <Contact <qq645958046> <等一等>>
+2020-08-04 22:09:57,953 - Contact - INFO - load contact <Contact <qwer199627> <Cc>>
+2020-08-04 22:09:57,954 - Contact - INFO - load contact <Contact <qzy404985074> <「自导自演」℡>>
+2020-08-04 22:09:57,955 - Contact - INFO - load contact <Contact <randolph_huang> <Randolph>>
+2020-08-04 22:09:57,956 - Contact - INFO - load contact <Contact <reebokli> <木子日卯>>
+2020-08-04 22:09:57,961 - Contact - INFO - load contact <Contact <sam715768> <Sam>>
+2020-08-04 22:09:57,962 - Contact - INFO - load contact <Contact <sgzy001> <勇bu言弃>>
+2020-08-04 22:09:57,963 - Contact - INFO - load contact <Contact <shenchen986343> <沈沉>>
+2020-08-04 22:09:57,964 - Contact - INFO - load contact <Contact <shouwang662273> <Fan>>
+2020-08-04 22:09:57,965 - Contact - INFO - load contact <Contact <song_huang> <Song.Huang>>
+2020-08-04 22:09:57,966 - Contact - INFO - load contact <Contact <sq1881> <无名老角>>
+2020-08-04 22:09:57,968 - Contact - INFO - load contact <Contact <superman3125> <Superman>>
+2020-08-04 22:09:57,969 - Contact - INFO - load contact <Contact <suruozhong> <苏若中>>
+2020-08-04 22:09:57,972 - Contact - INFO - load contact <Contact <taowei960618> <陶玮>>
+2020-08-04 22:09:57,973 - Contact - INFO - load contact <Contact <w399820721> <吃肉>>
+2020-08-04 22:09:57,974 - Contact - INFO - load contact <Contact <w852970697> <01>>
+2020-08-04 22:09:57,975 - Contact - INFO - load contact <Contact <w_wwlong> <qingwwlong>>
+2020-08-04 22:09:57,975 - Contact - INFO - load contact <Contact <wang6270250> <立木>>
+2020-08-04 22:09:57,976 - Contact - INFO - load contact <Contact <wangchangxin> <昌欣>>
+2020-08-04 22:09:57,977 - Contact - INFO - load contact <Contact <wangmeng19920626> <王猛>>
+2020-08-04 22:09:57,978 - Contact - INFO - load contact <Contact <wangmignbo> <王小波>>
+2020-08-04 22:09:57,979 - Contact - INFO - load contact <Contact <wangxg813> <Sigurd>>
+2020-08-04 22:09:57,980 - Contact - INFO - load contact <Contact <wangzengfe3907> <Lurpis>>
+2020-08-04 22:09:57,981 - Contact - INFO - load contact <Contact <we1025> <刘威>>
+2020-08-04 22:09:57,982 - Contact - INFO - load contact <Contact <wei747494> <刘昊阳>>
+2020-08-04 22:09:57,982 - Contact - INFO - load contact <Contact <weixin> <微信团队>>
+2020-08-04 22:09:57,983 - Contact - INFO - load contact <Contact <weixin_724317524> <harae xin>>
+2020-08-04 22:09:57,984 - Contact - INFO - load contact <Contact <wenyis> <Wen Yi>>
+2020-08-04 22:09:57,987 - Contact - INFO - load contact <Contact <wudi391360> <mingtian>>
+2020-08-04 22:09:57,988 - Contact - INFO - load contact <Contact <wulei651287168> <吴磊>>
+2020-08-04 22:09:57,989 - Contact - INFO - load contact <Contact <wumin842839> <龙骑士>>
+2020-08-04 22:09:57,990 - Contact - INFO - load contact <Contact <wusanwei> <3v>>
+2020-08-04 22:09:57,991 - Contact - INFO - load contact <Contact <wuying8> <J H R>>
+2020-08-04 22:09:57,992 - Contact - INFO - load contact <Contact <wxid_0047530459012> <yet>>
+2020-08-04 22:09:57,993 - Contact - INFO - load contact <Contact <wxid_0335293350812> <北风凉>>
+2020-08-04 22:09:57,993 - Contact - INFO - load contact <Contact <wxid_0354x9qnh6cc22> <酷酷的小可爱>>
+2020-08-04 22:09:57,994 - Contact - INFO - load contact <Contact <wxid_04625lkx5uaj22> <CV君@52CV>>
+2020-08-04 22:09:57,995 - Contact - INFO - load contact <Contact <wxid_0547365473922> <Daωid>>
+2020-08-04 22:09:57,996 - Contact - INFO - load contact <Contact <wxid_0553985539712> <freedom>>
+2020-08-04 22:09:57,997 - Contact - INFO - load contact <Contact <wxid_05wkxktk8f4u21> <海鹰>>
+2020-08-04 22:09:57,997 - Contact - INFO - load contact <Contact <wxid_07xs1f01zjcp22> <赵爽>>
+2020-08-04 22:09:57,998 - Contact - INFO - load contact <Contact <wxid_0b8p6r7p6md122> <杨不悔>>
+2020-08-04 22:09:57,999 - Contact - INFO - load contact <Contact <wxid_0bxs88sfa6iv21> <董峰>>
+2020-08-04 22:09:58,000 - Contact - INFO - load contact <Contact <wxid_0dxdb3ge6enr21> <所有人>>
+2020-08-04 22:09:58,001 - Contact - INFO - load contact <Contact <wxid_0kosnuxdvzqs21> <小蜗牛7号>>
+2020-08-04 22:09:58,002 - Contact - INFO - load contact <Contact <wxid_0mp2uchkzsx122> <OssChat>>
+2020-08-04 22:09:58,002 - Contact - INFO - load contact <Contact <wxid_0p0uleg42u1f12> <圆方>>
+2020-08-04 22:09:58,005 - Contact - INFO - load contact <Contact <wxid_0v9cd7nl77xo22> <Stupid笑>>
+2020-08-04 22:09:58,006 - Contact - INFO - load contact <Contact <wxid_1039530395912> <Hello>>
+2020-08-04 22:09:58,007 - Contact - INFO - load contact <Contact <wxid_1bu4bpgaj87821> <船形>>
+2020-08-04 22:09:58,009 - Contact - INFO - load contact <Contact <wxid_1dqjw77c31y122> <张两万>>
+2020-08-04 22:09:58,011 - Contact - INFO - load contact <Contact <wxid_1f6gut6p5v3422> <祖壹林>>
+2020-08-04 22:09:58,012 - Contact - INFO - load contact <Contact <wxid_1g7wdjtlaysa22> <midas1988>>
+2020-08-04 22:09:58,014 - Contact - INFO - load contact <Contact <wxid_1gw3277g3lhv21> <行路者>>
+2020-08-04 22:09:58,015 - Contact - INFO - load contact <Contact <wxid_1h4k9xisq50712> <null>>
+2020-08-04 22:09:58,017 - Contact - INFO - load contact <Contact <wxid_1qm1rkxlg30x22> <Dawn>>
+2020-08-04 22:09:58,018 - Contact - INFO - load contact <Contact <wxid_1skra3xuwcih21> <Win>>
+2020-08-04 22:09:58,020 - Contact - INFO - load contact <Contact <wxid_1v6owwa1vnvj12> <我是一起>>
+2020-08-04 22:09:58,022 - Contact - INFO - load contact <Contact <wxid_1xv4yy884f6w22> <。>>
+2020-08-04 22:09:58,024 - Contact - INFO - load contact <Contact <wxid_1ywb51thli9h22> <浅若清风>>
+2020-08-04 22:09:58,025 - Contact - INFO - load contact <Contact <wxid_2088410888712> <Mr.White>>
+2020-08-04 22:09:58,027 - Contact - INFO - load contact <Contact <wxid_21sqsj4r4s6922> <Zack>>
+2020-08-04 22:09:58,029 - Contact - INFO - load contact <Contact <wxid_23ke8tv02kq622> <稳>>
+2020-08-04 22:09:58,031 - Contact - INFO - load contact <Contact <wxid_2497715070812> <随风>>
+2020-08-04 22:09:58,033 - Contact - INFO - load contact <Contact <wxid_2566055660012> <dino>>
+2020-08-04 22:09:58,034 - Contact - INFO - load contact <Contact <wxid_2630346303512> <书瓖果>>
+2020-08-04 22:09:58,035 - Contact - INFO - load contact <Contact <wxid_283jgrtoc7gw21> <Wendy Wu吴文林>>
+2020-08-04 22:09:58,037 - Contact - INFO - load contact <Contact <wxid_2fp2pm1l3md421> <瑞丹-Fiona>>
+2020-08-04 22:09:58,038 - Contact - INFO - load contact <Contact <wxid_2jbdw478zgnu12> <人生如戏>>
+2020-08-04 22:09:58,040 - Contact - INFO - load contact <Contact <wxid_2mdlmzftj9so11> <ZCY>>
+2020-08-04 22:09:58,042 - Contact - INFO - load contact <Contact <wxid_2nt4f0f500aa21> <路在延伸>>
+2020-08-04 22:09:58,044 - Contact - INFO - load contact <Contact <wxid_2s8b7yt28jjk21> <陈大白>>
+2020-08-04 22:09:58,046 - Contact - INFO - load contact <Contact <wxid_2v4mqoxs6cr812> <暖房-千空>>
+2020-08-04 22:09:58,047 - Contact - INFO - load contact <Contact <wxid_3137701376922> <Tiger>>
+2020-08-04 22:09:58,048 - Contact - INFO - load contact <Contact <wxid_32rb8og9wb4u22> <吴定都>>
+2020-08-04 22:09:58,049 - Contact - INFO - load contact <Contact <wxid_33te3oy9uf4712> <徐睿>>
+2020-08-04 22:09:58,050 - Contact - INFO - load contact <Contact <wxid_34zzfgzm34h222> <Bruce>>
+2020-08-04 22:09:58,051 - Contact - INFO - load contact <Contact <wxid_3iyjtrqwfcci22> <青>>
+2020-08-04 22:09:58,052 - Contact - INFO - load contact <Contact <wxid_3jd16w4l6p5t22> <黑岩>>
+2020-08-04 22:09:58,053 - Contact - INFO - load contact <Contact <wxid_3neqz128tepj21> <doop-ymc>>
+2020-08-04 22:09:58,053 - Contact - INFO - load contact <Contact <wxid_3ojhk9uaqeen22> <Yao>>
+2020-08-04 22:09:58,054 - Contact - INFO - load contact <Contact <wxid_3s4ib59r90ii22> <See>>
+2020-08-04 22:09:58,056 - Contact - INFO - load contact <Contact <wxid_3wutdmlug7ud21> <还行。。>>
+2020-08-04 22:09:58,057 - Contact - INFO - load contact <Contact <wxid_43gt0h1h5dny11> <jq>>
+2020-08-04 22:09:58,059 - Contact - INFO - load contact <Contact <wxid_43yz7mb6dp2812> <小苏同学>>
+2020-08-04 22:09:58,060 - Contact - INFO - load contact <Contact <wxid_44ixsp1t1nmf22> <史茹倩>>
+2020-08-04 22:09:58,061 - Contact - INFO - load contact <Contact <wxid_45samwlakt5n22> <五维空间>>
+2020-08-04 22:09:58,062 - Contact - INFO - load contact <Contact <wxid_4983329830512> <野猪佩奇>>
+2020-08-04 22:09:58,063 - Contact - INFO - load contact <Contact <wxid_4cugm6dttsn722> <公孙墨岚>>
+2020-08-04 22:09:58,065 - Contact - INFO - load contact <Contact <wxid_4fyf5s0cd6xv22> <取一瓢饮>>
+2020-08-04 22:09:58,066 - Contact - INFO - load contact <Contact <wxid_4g9paqx649d822> <Sky>>
+2020-08-04 22:09:58,068 - Contact - INFO - load contact <Contact <wxid_4kmwjmdkcs3l22> <赵文义>>
+2020-08-04 22:09:58,070 - Contact - INFO - load contact <Contact <wxid_4l6ct89i40i111> <超>>
+2020-08-04 22:09:58,071 - Contact - INFO - load contact <Contact <wxid_4qhxbyax9a1322> <RobotZero>>
+2020-08-04 22:09:58,072 - Contact - INFO - load contact <Contact <wxid_4qzclzdadk0t22> <偏偏喜欢你>>
+2020-08-04 22:09:58,073 - Contact - INFO - load contact <Contact <wxid_4qznf9kshn6z22> <给我也整一个>>
+2020-08-04 22:09:58,074 - Contact - INFO - load contact <Contact <wxid_4tnz11kza44r22> <叶子>>
+2020-08-04 22:09:58,075 - Contact - INFO - load contact <Contact <wxid_4wkls7tu62ua12> <Friday BOT>>
+2020-08-04 22:09:58,077 - Contact - INFO - load contact <Contact <wxid_4zhzp4md2fqm22> <倾诉>>
+2020-08-04 22:09:58,078 - Contact - INFO - load contact <Contact <wxid_5146241436712> <Tuvas>>
+2020-08-04 22:09:58,078 - Contact - INFO - load contact <Contact <wxid_518wcnzuhn2212> <岭北>>
+2020-08-04 22:09:58,080 - Contact - INFO - load contact <Contact <wxid_5614316142511> <Laura>>
+2020-08-04 22:09:58,081 - Contact - INFO - load contact <Contact <wxid_5807038067212> <s1mple>>
+2020-08-04 22:09:58,082 - Contact - INFO - load contact <Contact <wxid_58pe1ekwfuu922> <大熊>>
+2020-08-04 22:09:58,083 - Contact - INFO - load contact <Contact <wxid_5968479675212> <Wang Zhen>>
+2020-08-04 22:09:58,084 - Contact - INFO - load contact <Contact <wxid_59uiqdm0je5352> <思想驰骋>>
+2020-08-04 22:09:58,085 - Contact - INFO - load contact <Contact <wxid_5bc4srtyaj3l22> <郭艳>>
+2020-08-04 22:09:58,086 - Contact - INFO - load contact <Contact <wxid_5gkrh36rzdag21> <dream>>
+2020-08-04 22:09:58,087 - Contact - INFO - load contact <Contact <wxid_5iq5uo4czns412> <CV君@52CV>>
+2020-08-04 22:09:58,087 - Contact - INFO - load contact <Contact <wxid_5kpixblh68w222> <Arfan>>
+2020-08-04 22:09:58,088 - Contact - INFO - load contact <Contact <wxid_5ndgsil2ctam21> <焦其宁（QíNíng-jiāo）>>
+2020-08-04 22:09:58,089 - Contact - INFO - load contact <Contact <wxid_5nmxxj32x1qz22> <张三>>
+2020-08-04 22:09:58,090 - Contact - INFO - load contact <Contact <wxid_5qmqiy6qtgkg12> <Sia>>
+2020-08-04 22:09:58,091 - Contact - INFO - load contact <Contact <wxid_5unnak3raqlm22> <大耳刘>>
+2020-08-04 22:09:58,092 - Contact - INFO - load contact <Contact <wxid_5zgyc94dy01w11> <陈浩>>
+2020-08-04 22:09:58,094 - Contact - INFO - load contact <Contact <wxid_5zj4i5htp9ih22> <Huan LI>>
+2020-08-04 22:09:58,095 - Contact - INFO - load contact <Contact <wxid_6103401034712> <Alive>>
+2020-08-04 22:09:58,096 - Contact - INFO - load contact <Contact <wxid_64h3jsgi8c1c22> <卓米>>
+2020-08-04 22:09:58,097 - Contact - INFO - load contact <Contact <wxid_6764777647614> <采蘑菇、找bug的小伙子，在路上>>
+2020-08-04 22:09:58,098 - Contact - INFO - load contact <Contact <wxid_6a94g4hryfg612> <Tommy Chen>>
+2020-08-04 22:09:58,099 - Contact - INFO - load contact <Contact <wxid_6gj816slvlcp21> <shows>>
+2020-08-04 22:09:58,104 - Contact - INFO - load contact <Contact <wxid_6uw1e98ke3rv22> <pacific moon>>
+2020-08-04 22:09:58,105 - Contact - INFO - load contact <Contact <wxid_6wjpyfsmer6f22> <闻W先生>>
+2020-08-04 22:09:58,107 - Contact - INFO - load contact <Contact <wxid_74d6v58c4guj22> <#(无知的菜狗 %)>>
+2020-08-04 22:09:58,107 - Contact - INFO - load contact <Contact <wxid_7769227692111> <观云>>
+2020-08-04 22:09:58,108 - Contact - INFO - load contact <Contact <wxid_7b1pepcb321q22> <Cheetah>>
+2020-08-04 22:09:58,110 - Contact - INFO - load contact <Contact <wxid_7c2ivr0goq9x12> <Josh Xu>>
+2020-08-04 22:09:58,224 - Contact - INFO - load contact <Contact <wxid_7mt4usnn73wc22> <CV君@52CV>>
+2020-08-04 22:09:58,225 - Contact - INFO - load contact <Contact <wxid_7nd09jafy0rp22> <Andrew>>
+2020-08-04 22:09:58,226 - Contact - INFO - load contact <Contact <wxid_7nofcm3ccaqz21> <董>>
+2020-08-04 22:09:58,227 - Contact - INFO - load contact <Contact <wxid_7qjeurzw9ip922> <早睡早起>>
+2020-08-04 22:09:58,229 - Contact - INFO - load contact <Contact <wxid_7r4lraes46qg11> <hamburger>>
+2020-08-04 22:09:58,230 - Contact - INFO - load contact <Contact <wxid_7t3h0pqr9cd841> <frost、>>
+2020-08-04 22:09:58,233 - Contact - INFO - load contact <Contact <wxid_7yg2ykbd9jrl11> <zhaoy>>
+2020-08-04 22:09:58,234 - Contact - INFO - load contact <Contact <wxid_8187321872912> <冯德军>>
+2020-08-04 22:09:58,235 - Contact - INFO - load contact <Contact <wxid_8777557772812> <NineRuiing>>
+2020-08-04 22:09:58,236 - Contact - INFO - load contact <Contact <wxid_8968899683912> <康>>
+2020-08-04 22:09:58,237 - Contact - INFO - load contact <Contact <wxid_8bqyix2yeuc221> <Andy杨>>
+2020-08-04 22:09:58,238 - Contact - INFO - load contact <Contact <wxid_8ecbfpn75u0a22> <～海阔天空～>>
+2020-08-04 22:09:58,239 - Contact - INFO - load contact <Contact <wxid_8hly4r3quvu922> <Xposean>>
+2020-08-04 22:09:58,240 - Contact - INFO - load contact <Contact <wxid_8t0oswmc4niu22> <-One>>
+2020-08-04 22:09:58,241 - Contact - INFO - load contact <Contact <wxid_8wges7uu324721> <minda>>
+2020-08-04 22:09:58,242 - Contact - INFO - load contact <Contact <wxid_8xa6akr6djio21> <Kaishen>>
+2020-08-04 22:09:58,244 - Contact - INFO - load contact <Contact <wxid_8ydqypwkmmne22> <ycrobot>>
+2020-08-04 22:09:58,245 - Contact - INFO - load contact <Contact <wxid_8ynlzft9zc2m11> <ly>>
+2020-08-04 22:09:58,245 - Contact - INFO - load contact <Contact <wxid_8yqacuqdvfw512> <辛巴>>
+2020-08-04 22:09:58,246 - Contact - INFO - load contact <Contact <wxid_9104571047012> <Ruthless。>>
+2020-08-04 22:09:58,247 - Contact - INFO - load contact <Contact <wxid_9146261462414> <CI2VO5IXZ7>>
+2020-08-04 22:09:58,248 - Contact - INFO - load contact <Contact <wxid_9171571712012> <暴走大头鱼>>
+2020-08-04 22:09:58,249 - Contact - INFO - load contact <Contact <wxid_9330253303112> <阳光海岸>>
+2020-08-04 22:09:58,250 - Contact - INFO - load contact <Contact <wxid_9863948637412> <Mr.R>>
+2020-08-04 22:09:58,251 - Contact - INFO - load contact <Contact <wxid_9d216fnvrrtu22> <231_>>
+2020-08-04 22:09:58,252 - Contact - INFO - load contact <Contact <wxid_9fvpp8gmzp0q21> <卡卡卡卡里古拉>>
+2020-08-04 22:09:58,253 - Contact - INFO - load contact <Contact <wxid_9hdzwwqfbfqp12> <微波特>>
+2020-08-04 22:09:58,256 - Contact - INFO - load contact <Contact <wxid_a8d806dzznm822> <Mike (李卓桓)>>
+2020-08-04 22:09:58,257 - Contact - INFO - load contact <Contact <wxid_acs9plzxjyx122> <弗法>>
+2020-08-04 22:09:58,258 - Contact - INFO - load contact <Contact <wxid_aet3jovsj9xy21> <图图-Adam>>
+2020-08-04 22:09:58,259 - Contact - INFO - load contact <Contact <wxid_aftotbu5dxlp22> <江>>
+2020-08-04 22:09:58,261 - Contact - INFO - load contact <Contact <wxid_aha7fzztdjan22> <Jiabin>>
+2020-08-04 22:09:58,262 - Contact - INFO - load contact <Contact <wxid_ahnao64yhq9h21> <雨空明>>
+2020-08-04 22:09:58,263 - Contact - INFO - load contact <Contact <wxid_aibf31w49xb222> <bot>>
+2020-08-04 22:09:58,264 - Contact - INFO - load contact <Contact <wxid_akpsl0zrpp2i22> <刘迎飞>>
+2020-08-04 22:09:58,266 - Contact - INFO - load contact <Contact <wxid_akt94hmn8gek11> <lzy>>
+2020-08-04 22:09:58,267 - Contact - INFO - load contact <Contact <wxid_ame3vc7s0glf1> <肖新美>>
+2020-08-04 22:09:58,268 - Contact - INFO - load contact <Contact <wxid_ashjvlqk8mp621> <江湖夜雨>>
+2020-08-04 22:09:58,269 - Contact - INFO - load contact <Contact <wxid_au53l42pvs9x22> <张承接>>
+2020-08-04 22:09:58,270 - Contact - INFO - load contact <Contact <wxid_ay2kc4xeh0sy22> <CV君@52CV>>
+2020-08-04 22:09:58,270 - Contact - INFO - load contact <Contact <wxid_b2xokg87q9sl22> <我的宠物是蚂烟儿>>
+2020-08-04 22:09:58,273 - Contact - INFO - load contact <Contact <wxid_behxslpnmly721> <Mr. Chen>>
+2020-08-04 22:09:58,274 - Contact - INFO - load contact <Contact <wxid_bibhfgo6kpft21> <LIIIUUUH>>
+2020-08-04 22:09:58,275 - Contact - INFO - load contact <Contact <wxid_biz9387t6y2y22> <Zzz>>
+2020-08-04 22:09:58,277 - Contact - INFO - load contact <Contact <wxid_bkwsv1zfaag312> <Phoo_H>>
+2020-08-04 22:09:58,278 - Contact - INFO - load contact <Contact <wxid_bnixwusjpjh522> <棉花糖one>>
+2020-08-04 22:09:58,279 - Contact - INFO - load contact <Contact <wxid_bt9nkugm3vsk12> <曹锐>>
+2020-08-04 22:09:58,280 - Contact - INFO - load contact <Contact <wxid_btlfe4y4swut41> <嘘，别吱声>>
+2020-08-04 22:09:58,281 - Contact - INFO - load contact <Contact <wxid_c6ssxxtwir6911> <lznine>>
+2020-08-04 22:09:58,282 - Contact - INFO - load contact <Contact <wxid_cah8abj32te021> <VisJiao>>
+2020-08-04 22:09:58,283 - Contact - INFO - load contact <Contact <wxid_cddzdsqv2ncb22> <魍魉>>
+2020-08-04 22:09:58,284 - Contact - INFO - load contact <Contact <wxid_cfenftijhhms21> <Hoooooo！>>
+2020-08-04 22:09:58,284 - Contact - INFO - load contact <Contact <wxid_cia0fzny16pd22> <琳琳>>
+2020-08-04 22:09:58,285 - Contact - INFO - load contact <Contact <wxid_cj4bx49izfbt22> <一介草民>>
+2020-08-04 22:09:58,286 - Contact - INFO - load contact <Contact <wxid_criwiic8nkv212> <will8>>
+2020-08-04 22:09:58,286 - Contact - INFO - load contact <Contact <wxid_d1tua6lll21t22> <拿了橘子跑>>
+2020-08-04 22:09:58,288 - Contact - INFO - load contact <Contact <wxid_d1yegmg0l7w222> <阿杜>>
+2020-08-04 22:09:58,290 - Contact - INFO - load contact <Contact <wxid_d6pnnfjv5gbm22> <好物先生>>
+2020-08-04 22:09:58,291 - Contact - INFO - load contact <Contact <wxid_d7u7j6pg8jkq12> <棠>>
+2020-08-04 22:09:58,292 - Contact - INFO - load contact <Contact <wxid_d95ftfxjksoq22> <33>>
+2020-08-04 22:09:58,296 - Contact - INFO - load contact <Contact <wxid_dddysb38zkwv22> <龙抬头>>
+2020-08-04 22:09:58,297 - Contact - INFO - load contact <Contact <wxid_dekr8kqu1xsk22> <54孟>>
+2020-08-04 22:09:58,298 - Contact - INFO - load contact <Contact <wxid_dn4ztyenv9ka12> <清风>>
+2020-08-04 22:09:58,299 - Contact - INFO - load contact <Contact <wxid_dngp319tluj022> <Ouyang>>
+2020-08-04 22:09:58,300 - Contact - INFO - load contact <Contact <wxid_dp8e0go00q6w22> <风云二号>>
+2020-08-04 22:09:58,301 - Contact - INFO - load contact <Contact <wxid_dpys8mwv3z5922> <小犀利豆>>
+2020-08-04 22:09:58,302 - Contact - INFO - load contact <Contact <wxid_dq4dfj0uh45q22> <May>>
+2020-08-04 22:09:58,303 - Contact - INFO - load contact <Contact <wxid_dy3x5kxwjqed22> <局外人>>

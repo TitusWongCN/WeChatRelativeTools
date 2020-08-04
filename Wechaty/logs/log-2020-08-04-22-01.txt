@@ -1,0 +1,121 @@
+2020-08-04 22:01:49,365 - Wechaty - INFO - on() listen event <scan> with <<function main.<locals>.<lambda> at 0x0000023779174620>>
+2020-08-04 22:01:49,365 - Wechaty - DEBUG - emit() event <['scan', '<function main.<locals>.<lambda> at 0x0000023779174620>']> <{}>
+2020-08-04 22:01:49,365 - Wechaty - INFO - on() listen event <login> with <<function main.<locals>.<lambda> at 0x0000023779174730>>
+2020-08-04 22:01:49,366 - Wechaty - DEBUG - emit() event <['login', '<function main.<locals>.<lambda> at 0x0000023779174730>']> <{}>
+2020-08-04 22:01:49,366 - Wechaty - INFO - on() listen event <message> with <<function on_message at 0x0000023778531E18>>
+2020-08-04 22:01:49,366 - Wechaty - DEBUG - emit() event <['message', '<function on_message at 0x0000023778531E18>']> <{}>
+2020-08-04 22:01:49,474 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_hostie.puppet.HostiePuppet object at 0x000002377916E940>>
+2020-08-04 22:01:49,475 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2020-08-04 22:01:49,475 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2020-08-04 22:01:49,476 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2020-08-04 22:01:49,476 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2020-08-04 22:01:49,477 - Wechaty - INFO - receive <reset> event <%s>
+2020-08-04 22:01:49,477 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2020-08-04 22:01:49,477 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2020-08-04 22:01:49,478 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2020-08-04 22:01:49,478 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2020-08-04 22:01:49,479 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2020-08-04 22:01:49,479 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2020-08-04 22:01:49,479 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2020-08-04 22:01:49,480 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2020-08-04 22:01:49,480 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2020-08-04 22:01:49,481 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2020-08-04 22:01:49,481 - Wechaty - INFO - starting puppet ...
+2020-08-04 22:01:49,481 - HostiePuppet - INFO - init puppet
+2020-08-04 22:01:49,482 - HostiePuppet - INFO - There is no endpoint in cache, trying to fetch endpoint with token.
+2020-08-04 22:01:51,841 - HostiePuppet - DEBUG - get puppet ip address : <{'ip': '52.82.110.129', 'port': 15106}>
+2020-08-04 22:01:51,844 - HostiePuppet - INFO - starting the puppet ...
+2020-08-04 22:01:52,000 - HostiePuppet - INFO - puppet has started ...
+2020-08-04 22:01:52,000 - HostiePuppet - INFO - listening the event from the puppet ...
+2020-08-04 22:01:52,064 - HostiePuppet - DEBUG - receive login info <{'contactId': 'wxid_ducokm8pteat22'}>
+2020-08-04 22:01:52,064 - Wechaty - INFO - receive <login> event <EventLoginPayload(contact_id='wxid_ducokm8pteat22')>
+2020-08-04 22:01:52,115 - Contact - INFO - load contact <Contact <wxid_ducokm8pteat22> <MyGhost__>>
+2020-08-04 22:01:52,116 - Wechaty - DEBUG - emit() event <['Contact <wxid_ducokm8pteat22> <MyGhost__>']> <{}>
+2020-08-04 22:01:52,116 - wechaty.plugin - INFO - init the plugins ...
+2020-08-04 22:02:05,645 - HostiePuppet - DEBUG - receive message info <{'messageId': '1860248069577192953'}>
+2020-08-04 22:02:05,645 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1860248069577192953', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2020-08-04 22:02:05,646 - Message - DEBUG - Message ready <<1860248069577192953> not ready>
+2020-08-04 22:02:05,756 - Contact - INFO - load contact <Contact <wzhwno1> <Titus.Wong>>
+2020-08-04 22:02:05,912 - Contact - INFO - load contact <Contact <wxid_jrnjoldb721q22> <Robot>>
+2020-08-04 22:02:05,972 - Contact - INFO - load contact <Contact <wxid_kfqsq4e8rqn721> <Titus.Wong>>
+2020-08-04 22:02:05,972 - Wechaty - INFO - receive message <room <Room <18887123951@chatroom - 量化动态播报>>, talker Contact <wzhwno1> <Titus.Wong>, say to contact <Contact <>>, #ding>
+2020-08-04 22:02:05,972 - Wechaty - DEBUG - emit() event <['room <Room <18887123951@chatroom - 量化动态播报>>, talker Contact <wzhwno1> <Titus.Wong>, say to contact <Contact <>>, #ding']> <{}>
+2020-08-04 22:02:05,973 - Room - INFO - Room say <dong, None>
+2020-08-04 22:02:06,141 - Message - DEBUG - Message ready <<3445442092984894938> not ready>
+2020-08-04 22:02:06,144 - HostiePuppet - DEBUG - receive message info <{'messageId': '3445442092984894938'}>
+2020-08-04 22:02:06,144 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='3445442092984894938', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2020-08-04 22:02:06,144 - Message - DEBUG - Message ready <<3445442092984894938> not ready>
+2020-08-04 22:02:06,189 - Contact - INFO - find() <<class 'wechaty.wechaty.Contact'>, typing.Union[ForwardRef('name'), ForwardRef('Titus.Wong')]>
+2020-08-04 22:02:06,190 - Contact - INFO - find_all() <<class 'wechaty.wechaty.Contact'>, typing.Union[ForwardRef('name'), ForwardRef('Titus.Wong')]>
+2020-08-04 22:02:06,195 - Wechaty - INFO - receive message <room <Room <18887123951@chatroom - 量化动态播报>>, talker Contact <wxid_ducokm8pteat22> <MyGhost__>, say to contact <Contact <>>, dong>
+2020-08-04 22:02:06,196 - Wechaty - DEBUG - emit() event <['room <Room <18887123951@chatroom - 量化动态播报>>, talker Contact <wxid_ducokm8pteat22> <MyGhost__>, say to contact <Contact <>>, dong']> <{}>
+2020-08-04 22:02:07,467 - Contact - INFO - load contact <Contact <BJOnFire> <JG>>
+2020-08-04 22:02:07,475 - Contact - INFO - load contact <Contact <Evanwu2011> <NG>>
+2020-08-04 22:02:07,476 - Contact - INFO - load contact <Contact <GLM1943258508> <果乐>>
+2020-08-04 22:02:07,477 - Contact - INFO - load contact <Contact <GX_123> <Future52>>
+2020-08-04 22:02:07,478 - Contact - INFO - load contact <Contact <Gracian> <Gracian>>
+2020-08-04 22:02:07,479 - Contact - INFO - load contact <Contact <Greatest_Ever> <废柴MADAO>>
+2020-08-04 22:02:07,480 - Contact - INFO - load contact <Contact <H409766147X12J04> < Enchanter>>
+2020-08-04 22:02:07,481 - Contact - INFO - load contact <Contact <HighSpeedSpace> <汤姆>>
+2020-08-04 22:02:07,482 - Contact - INFO - load contact <Contact <Jason_300> <Jason>>
+2020-08-04 22:02:07,483 - Contact - INFO - load contact <Contact <LonelyWarrior1988> <土拨鼠>>
+2020-08-04 22:02:07,483 - Contact - INFO - load contact <Contact <Lucifer_N> <Nolan>>
+2020-08-04 22:02:07,484 - Contact - INFO - load contact <Contact <MG1393133944> <阿祝>>
+2020-08-04 22:02:07,485 - Contact - INFO - load contact <Contact <Mr-weirun> <R.>>
+2020-08-04 22:02:07,486 - Contact - INFO - load contact <Contact <NBA0002012> <ouou>>
+2020-08-04 22:02:07,487 - Contact - INFO - load contact <Contact <Nickey1314> <Nickey>>
+2020-08-04 22:02:07,488 - Contact - INFO - load contact <Contact <Paraself2010> <Yves Wang>>
+2020-08-04 22:02:07,489 - Contact - INFO - load contact <Contact <Q1435255141> <阿杰>>
+2020-08-04 22:02:07,489 - Contact - INFO - load contact <Contact <Soul001001> <苏畅>>
+2020-08-04 22:02:07,490 - Contact - INFO - load contact <Contact <V343461392> <国松>>
+2020-08-04 22:02:07,491 - Contact - INFO - load contact <Contact <Vvvsmallbo> <李o_O>>
+2020-08-04 22:02:07,492 - Contact - INFO - load contact <Contact <Walky002> <Walky>>
+2020-08-04 22:02:07,493 - Contact - INFO - load contact <Contact <YL54678421> <无名>>
+2020-08-04 22:02:07,499 - Contact - INFO - load contact <Contact <Zaxing123> <张兴>>
+2020-08-04 22:02:07,500 - Contact - INFO - load contact <Contact <a-15963254> <ALong>>
+2020-08-04 22:02:07,501 - Contact - INFO - load contact <Contact <a32647883> <Li>>
+2020-08-04 22:02:07,502 - Contact - INFO - load contact <Contact <a34001960> <王岱>>
+2020-08-04 22:02:07,505 - Contact - INFO - load contact <Contact <a714893270> <三未>>
+2020-08-04 22:02:07,507 - Contact - INFO - load contact <Contact <aiyalala> <睡不醒>>
+2020-08-04 22:02:07,509 - Contact - INFO - load contact <Contact <alexYYY> <alex>>
+2020-08-04 22:02:07,510 - Contact - INFO - load contact <Contact <alexec> <alex>>
+2020-08-04 22:02:07,511 - Contact - INFO - load contact <Contact <andy_lijun> <Andy_LIJUN>>
+2020-08-04 22:02:07,512 - Contact - INFO - load contact <Contact <askfuture> <龙少>>
+2020-08-04 22:02:07,513 - Contact - INFO - load contact <Contact <asun_bigholy> <asun>>
+2020-08-04 22:02:07,513 - Contact - INFO - load contact <Contact <babafall> <冯润全>>
+2020-08-04 22:02:07,514 - Contact - INFO - load contact <Contact <bagededipan> <网球王子酷酷>>
+2020-08-04 22:02:07,515 - Contact - INFO - load contact <Contact <banny560008> <止水>>
+2020-08-04 22:02:07,516 - Contact - INFO - load contact <Contact <baoquanmotto> <MrBaoquan>>
+2020-08-04 22:02:07,518 - Contact - INFO - load contact <Contact <bergkamps> <若识>>
+2020-08-04 22:02:07,519 - Contact - INFO - load contact <Contact <blues-wang> <斯道>>
+2020-08-04 22:02:07,519 - Contact - INFO - load contact <Contact <bluesky_still> <天空蔚蓝>>
+2020-08-04 22:02:07,520 - Contact - INFO - load contact <Contact <borisbao> <回车键>>
+2020-08-04 22:02:07,521 - Contact - INFO - load contact <Contact <caicaixs> <CAiCai>>
+2020-08-04 22:02:07,522 - Contact - INFO - load contact <Contact <caomushen315> <那时花开>>
+2020-08-04 22:02:07,523 - Contact - INFO - load contact <Contact <carlxia> <夏之晟>>
+2020-08-04 22:02:07,524 - Contact - INFO - load contact <Contact <ccyhxc> <myq>>
+2020-08-04 22:02:07,525 - Contact - INFO - load contact <Contact <cengzhi246832> <曾志>>
+2020-08-04 22:02:07,527 - Contact - INFO - load contact <Contact <chaoshuyang> <晁舒杨>>
+2020-08-04 22:02:07,528 - Contact - INFO - load contact <Contact <chengaopan0909> <高攀>>
+2020-08-04 22:02:07,529 - Contact - INFO - load contact <Contact <chenyao735122991> <陈尧>>
+2020-08-04 22:02:07,530 - Contact - INFO - load contact <Contact <chenzqcn> <Chen>>
+2020-08-04 22:02:07,531 - Contact - INFO - load contact <Contact <chguofeng> <Guofeng>>
+2020-08-04 22:02:07,532 - Contact - INFO - load contact <Contact <china-ngh> <风云>>
+2020-08-04 22:02:07,533 - Contact - INFO - load contact <Contact <cissy930426> <瑶鑫Cecilia>>
+2020-08-04 22:02:07,535 - Contact - INFO - load contact <Contact <cosmicvision> <日月同辉@智能视觉>>
+2020-08-04 22:02:07,536 - Contact - INFO - load contact <Contact <cyhtdawh> <Yao、He>>
+2020-08-04 22:02:07,537 - Contact - INFO - load contact <Contact <cz858501063> <飓风儿师姐>>
+2020-08-04 22:02:07,538 - Contact - INFO - load contact <Contact <daredevilcho> <Capharnaüm>>
+2020-08-04 22:02:07,539 - Contact - INFO - load contact <Contact <david170113044> <埚牛>>
+2020-08-04 22:02:07,540 - Contact - INFO - load contact <Contact <diaozxin> <犀利豆>>
+2020-08-04 22:02:07,541 - Contact - INFO - load contact <Contact <djf920516> <wind>>
+2020-08-04 22:02:07,542 - Contact - INFO - load contact <Contact <duling2768> <杜玲>>
+2020-08-04 22:02:07,543 - Contact - INFO - load contact <Contact <dupeng19900418> <杜鹏>>
+2020-08-04 22:02:07,544 - Contact - INFO - load contact <Contact <dwxd2007> <紫玉>>
+2020-08-04 22:02:07,545 - Contact - INFO - load contact <Contact <ekinchen_wei> <太阳公公>>
+2020-08-04 22:02:07,546 - Contact - INFO - load contact <Contact <eric1170316249> <ERIC>>
+2020-08-04 22:02:07,548 - Contact - INFO - load contact <Contact <eternityi> <wxid_9bzid47uf5zd27>>
+2020-08-04 22:02:07,549 - Contact - INFO - load contact <Contact <ethan_likailin> <开林1>>
+2020-08-04 22:02:07,550 - Contact - INFO - load contact <Contact <fengbs600220> <deepbrainfeng>>
+2020-08-04 22:02:07,551 - Contact - INFO - load contact <Contact <fenglinxiran> <枫林夕染>>
+2020-08-04 22:02:07,552 - Contact - INFO - load contact <Contact <feoniy> <jifengbo>>
