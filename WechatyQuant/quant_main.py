@@ -1,5 +1,5 @@
-from strats.grid.grid import GridStrat
-from strats.grid.data_loader import DataLoader
+from grid import GridStrat
+from data_loader import DataLoader
 import time
 import base64
 import traceback
